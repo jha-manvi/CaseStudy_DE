@@ -491,3 +491,52 @@ SyntaxError: invalid syntax
 [2022-04-03 00:33:24,672] {logging_mixin.py:109} INFO - [2022-04-03 00:33:24,672] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-04-03 00:33:24,677] {logging_mixin.py:109} INFO - [2022-04-03 00:33:24,677] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
 [2022-04-03 00:33:24,681] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.039 seconds
+[2022-04-03 00:34:02,088] {processor.py:163} INFO - Started process (PID=13170) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:02,088] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:34:02,088] {logging_mixin.py:109} INFO - [2022-04-03 00:34:02,088] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:02,110] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:02,120] {logging_mixin.py:109} INFO - [2022-04-03 00:34:02,120] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:34:02,125] {logging_mixin.py:109} INFO - [2022-04-03 00:34:02,125] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:34:02,128] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.041 seconds
+[2022-04-03 00:34:39,908] {processor.py:163} INFO - Started process (PID=13287) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:39,909] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:34:39,909] {logging_mixin.py:109} INFO - [2022-04-03 00:34:39,909] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:39,929] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:34:39,940] {logging_mixin.py:109} INFO - [2022-04-03 00:34:39,940] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:34:39,947] {logging_mixin.py:109} INFO - [2022-04-03 00:34:39,947] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:34:39,952] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.044 seconds
+[2022-04-03 00:35:17,602] {processor.py:163} INFO - Started process (PID=13386) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:17,603] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:35:17,603] {logging_mixin.py:109} INFO - [2022-04-03 00:35:17,603] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:17,624] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:17,645] {logging_mixin.py:109} INFO - [2022-04-03 00:35:17,645] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:35:17,653] {logging_mixin.py:109} INFO - [2022-04-03 00:35:17,653] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:35:17,659] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.056 seconds
+[2022-04-03 00:35:55,433] {processor.py:163} INFO - Started process (PID=13498) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:55,434] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:35:55,435] {logging_mixin.py:109} INFO - [2022-04-03 00:35:55,435] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:55,454] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:35:55,463] {logging_mixin.py:109} INFO - [2022-04-03 00:35:55,463] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:35:55,468] {logging_mixin.py:109} INFO - [2022-04-03 00:35:55,468] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:35:55,472] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.039 seconds
+[2022-04-03 00:36:32,976] {processor.py:163} INFO - Started process (PID=13615) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:36:32,977] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:36:32,978] {logging_mixin.py:109} INFO - [2022-04-03 00:36:32,978] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:36:32,998] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:36:33,134] {logging_mixin.py:109} INFO - [2022-04-03 00:36:33,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:36:33,140] {logging_mixin.py:109} INFO - [2022-04-03 00:36:33,139] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:36:33,144] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.168 seconds
+[2022-04-03 00:37:10,817] {processor.py:163} INFO - Started process (PID=13714) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:10,818] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:37:10,818] {logging_mixin.py:109} INFO - [2022-04-03 00:37:10,818] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:10,837] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:10,979] {logging_mixin.py:109} INFO - [2022-04-03 00:37:10,978] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:37:10,984] {logging_mixin.py:109} INFO - [2022-04-03 00:37:10,984] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:37:10,988] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.172 seconds
+[2022-04-03 00:37:47,960] {processor.py:163} INFO - Started process (PID=13799) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:47,961] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py for tasks to queue
+[2022-04-03 00:37:47,961] {logging_mixin.py:109} INFO - [2022-04-03 00:37:47,961] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:47,980] {processor.py:654} INFO - DAG(s) dict_keys(['workflow1']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py
+[2022-04-03 00:37:47,989] {logging_mixin.py:109} INFO - [2022-04-03 00:37:47,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-03 00:37:47,994] {logging_mixin.py:109} INFO - [2022-04-03 00:37:47,994] {dag.py:2937} INFO - Setting next_dagrun for workflow1 to 2022-01-01 22:00:00+00:00
+[2022-04-03 00:37:47,998] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py took 0.038 seconds
