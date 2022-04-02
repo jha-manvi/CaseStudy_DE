@@ -1,0 +1,7 @@
+[[34m2022-04-02 23:46:20,876[0m] {[34mscheduler_job.py:[0m619} INFO[0m - Starting the scheduler[0m
+[[34m2022-04-02 23:46:20,877[0m] {[34mscheduler_job.py:[0m624} INFO[0m - Processing each file at most -1 times[0m
+[[34m2022-04-02 23:46:20,882[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 5915[0m
+[[34m2022-04-02 23:46:20,884[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-02 23:46:21,668[0m] {[34msettings.py:[0m55} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2022-04-02 23:46:21,671] {manager.py:441} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2022-04-02 23:51:21,624[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m

@@ -1,0 +1,5 @@
+2022-04-02 23:46:20,876 INFO - Starting the scheduler
+2022-04-02 23:46:20,877 INFO - Processing each file at most -1 times
+2022-04-02 23:46:20,882 INFO - Launched DagFileProcessorManager with pid: 5915
+2022-04-02 23:46:20,884 INFO - Resetting orphaned tasks for active dag runs
+2022-04-02 23:51:21,624 INFO - Resetting orphaned tasks for active dag runs

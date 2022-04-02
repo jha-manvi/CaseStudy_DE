@@ -1,0 +1,40 @@
+[2022-04-02 23:46:56,277] {processor.py:163} INFO - Started process (PID=6001) to work on /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:46:56,277] {processor.py:642} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-04-02 23:46:56,277] {logging_mixin.py:109} INFO - [2022-04-02 23:46:56,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:46:56,287] {logging_mixin.py:109} INFO - [2022-04-02 23:46:56,287] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-04-02 23:46:56,303] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:46:56,313] {logging_mixin.py:109} INFO - [2022-04-02 23:46:56,313] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-02 23:46:56,318] {logging_mixin.py:109} INFO - [2022-04-02 23:46:56,318] {dag.py:2937} INFO - Setting next_dagrun for example_python_operator to None
+[2022-04-02 23:46:56,321] {processor.py:171} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds
+[2022-04-02 23:48:03,628] {processor.py:163} INFO - Started process (PID=6194) to work on /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:48:03,628] {processor.py:642} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-04-02 23:48:03,629] {logging_mixin.py:109} INFO - [2022-04-02 23:48:03,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:48:03,639] {logging_mixin.py:109} INFO - [2022-04-02 23:48:03,639] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-04-02 23:48:03,659] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:48:03,669] {logging_mixin.py:109} INFO - [2022-04-02 23:48:03,669] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-02 23:48:03,674] {logging_mixin.py:109} INFO - [2022-04-02 23:48:03,674] {dag.py:2937} INFO - Setting next_dagrun for example_python_operator to None
+[2022-04-02 23:48:03,680] {processor.py:171} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.053 seconds
+[2022-04-02 23:49:10,847] {processor.py:163} INFO - Started process (PID=6372) to work on /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:49:10,848] {processor.py:642} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-04-02 23:49:10,848] {logging_mixin.py:109} INFO - [2022-04-02 23:49:10,848] {dagbag.py:500} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:49:10,859] {logging_mixin.py:109} INFO - [2022-04-02 23:49:10,859] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-04-02 23:49:10,876] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:49:10,887] {logging_mixin.py:109} INFO - [2022-04-02 23:49:10,886] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-02 23:49:10,891] {logging_mixin.py:109} INFO - [2022-04-02 23:49:10,891] {dag.py:2937} INFO - Setting next_dagrun for example_python_operator to None
+[2022-04-02 23:49:10,896] {processor.py:171} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.049 seconds
+[2022-04-02 23:50:18,600] {processor.py:163} INFO - Started process (PID=6591) to work on /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:50:18,601] {processor.py:642} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-04-02 23:50:18,601] {logging_mixin.py:109} INFO - [2022-04-02 23:50:18,601] {dagbag.py:500} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:50:18,614] {logging_mixin.py:109} INFO - [2022-04-02 23:50:18,614] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-04-02 23:50:18,631] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:50:18,640] {logging_mixin.py:109} INFO - [2022-04-02 23:50:18,640] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-02 23:50:18,645] {logging_mixin.py:109} INFO - [2022-04-02 23:50:18,645] {dag.py:2937} INFO - Setting next_dagrun for example_python_operator to None
+[2022-04-02 23:50:18,649] {processor.py:171} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.050 seconds
+[2022-04-02 23:51:25,365] {processor.py:163} INFO - Started process (PID=6762) to work on /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:51:25,366] {processor.py:642} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-04-02 23:51:25,367] {logging_mixin.py:109} INFO - [2022-04-02 23:51:25,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:51:25,377] {logging_mixin.py:109} INFO - [2022-04-02 23:51:25,377] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-04-02 23:51:25,393] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-04-02 23:51:25,402] {logging_mixin.py:109} INFO - [2022-04-02 23:51:25,402] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-02 23:51:25,406] {logging_mixin.py:109} INFO - [2022-04-02 23:51:25,406] {dag.py:2937} INFO - Setting next_dagrun for example_python_operator to None
+[2022-04-02 23:51:25,410] {processor.py:171} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds

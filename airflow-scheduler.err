@@ -1,0 +1,12 @@
+[2022-04-02 23:46:21 +0200] [5914] [INFO] Starting gunicorn 20.1.0
+[2022-04-02 23:46:21 +0200] [5914] [ERROR] Connection in use: ('0.0.0.0', 8793)
+[2022-04-02 23:46:21 +0200] [5914] [ERROR] Retrying in 1 second.
+[2022-04-02 23:46:22 +0200] [5914] [ERROR] Connection in use: ('0.0.0.0', 8793)
+[2022-04-02 23:46:22 +0200] [5914] [ERROR] Retrying in 1 second.
+[2022-04-02 23:46:23 +0200] [5914] [ERROR] Connection in use: ('0.0.0.0', 8793)
+[2022-04-02 23:46:23 +0200] [5914] [ERROR] Retrying in 1 second.
+[2022-04-02 23:46:24 +0200] [5914] [ERROR] Connection in use: ('0.0.0.0', 8793)
+[2022-04-02 23:46:24 +0200] [5914] [ERROR] Retrying in 1 second.
+[2022-04-02 23:46:25 +0200] [5914] [ERROR] Connection in use: ('0.0.0.0', 8793)
+[2022-04-02 23:46:25 +0200] [5914] [ERROR] Retrying in 1 second.
+[2022-04-02 23:46:26 +0200] [5914] [ERROR] Can't connect to ('0.0.0.0', 8793)
