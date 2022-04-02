@@ -5,3 +5,11 @@
 [[34m2022-04-02 23:46:21,668[0m] {[34msettings.py:[0m55} INFO[0m - Configured default timezone Timezone('UTC')[0m
 [2022-04-02 23:46:21,671] {manager.py:441} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
 [[34m2022-04-02 23:51:21,624[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-02 23:56:21,916[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:01:22,287[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:06:23,254[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:11:23,317[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:16:24,298[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:21:25,241[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:26:25,334[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-03 00:31:26,222[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
