@@ -38,3 +38,362 @@
 2022-04-03 12:01:16,875 INFO - Resetting orphaned tasks for active dag runs
 2022-04-03 12:06:17,807 INFO - Resetting orphaned tasks for active dag runs
 2022-04-03 12:11:18,790 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:16:19,454 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:21:20,015 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:26:20,532 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:31:21,500 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:36:22,421 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:41:23,486 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:46:24,404 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:51:25,343 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 12:56:26,391 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:01:26,509 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:06:27,449 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:11:27,490 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:16:28,500 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:21:28,656 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:26:29,327 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:31:30,311 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:36:30,457 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:41:31,358 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:46:32,279 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:51:33,047 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 13:56:33,995 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:01:34,951 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:06:35,897 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:11:36,826 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:16:37,385 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:21:37,457 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:26:38,136 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:31:39,200 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 14:36:40,385 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 15:50:26,380 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 15:50:26,384 INFO - Marked 1 SchedulerJob instances as failed
+2022-04-03 17:42:27,809 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 17:47:28,684 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 17:52:29,630 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 17:57:30,770 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:02:31,694 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:07:32,057 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:12:32,487 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:17:33,744 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:22:35,100 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:27:35,656 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:32:35,743 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:37:36,630 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:40:00,649 INFO - Setting next_dagrun for workflow1 to 2022-02-01T22:00:00+00:00
+2022-04-03 18:40:00,678 INFO - 6 tasks up for execution:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file1 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+2022-04-03 18:40:00,679 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 6 task instances ready to be queued
+2022-04-03 18:40:00,680 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:40:00,680 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:40:00,680 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:40:00,681 INFO - DAG workflow1 has 3/16 running and queued tasks
+2022-04-03 18:40:00,681 INFO - DAG workflow1 has 4/16 running and queued tasks
+2022-04-03 18:40:00,681 INFO - DAG workflow1 has 5/16 running and queued tasks
+2022-04-03 18:40:00,682 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file1 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+2022-04-03 18:40:00,683 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file1', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,684 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,684 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file2', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,685 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,685 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file3', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,685 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,686 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file1', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,686 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,686 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file2', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,687 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,687 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file3', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:40:00,687 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:00,688 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:27,141 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:40:53,528 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:41:19,998 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:41:46,389 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:12,867 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:39,250 INFO - Executor reports execution of workflow1.check_file1 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,252 INFO - Executor reports execution of workflow1.check_file2 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,252 INFO - Executor reports execution of workflow1.check_file3 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,253 INFO - Executor reports execution of workflow1.check_file1 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,253 INFO - Executor reports execution of workflow1.check_file2 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,253 INFO - Executor reports execution of workflow1.check_file3 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:42:39,261 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file1, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:41:36.109872+00:00, run_end_date=2022-04-03 16:41:46.222768+00:00, run_duration=10.112896, state=success, executor_state=success, try_number=1, max_tries=3, job_id=5, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,262 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file2, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:42:02.536516+00:00, run_end_date=2022-04-03 16:42:12.681418+00:00, run_duration=10.144902, state=success, executor_state=success, try_number=1, max_tries=3, job_id=6, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,262 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file3, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:42:28.986455+00:00, run_end_date=2022-04-03 16:42:39.082669+00:00, run_duration=10.096214, state=success, executor_state=success, try_number=1, max_tries=3, job_id=7, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,262 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file1, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:40:16.820571+00:00, run_end_date=2022-04-03 16:40:26.963440+00:00, run_duration=10.142869, state=success, executor_state=success, try_number=1, max_tries=3, job_id=2, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,263 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file2, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:40:43.262378+00:00, run_end_date=2022-04-03 16:40:53.373774+00:00, run_duration=10.111396, state=success, executor_state=success, try_number=1, max_tries=3, job_id=3, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,263 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file3, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:41:09.648366+00:00, run_end_date=2022-04-03 16:41:19.797931+00:00, run_duration=10.149565, state=success, executor_state=success, try_number=1, max_tries=3, job_id=4, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:42:39,275 ERROR - DagFileProcessorManager (PID=5915) last sent a heartbeat 158.65 seconds ago! Restarting it
+2022-04-03 18:42:39,280 INFO - Sending Signals.SIGTERM to group 5915. PIDs of all processes in the group: [5915]
+2022-04-03 18:42:39,280 INFO - Sending the signal Signals.SIGTERM to group 5915
+2022-04-03 18:42:39,499 INFO - Process psutil.Process(pid=5915, status='terminated', exitcode=0, started='23:46:20') (5915) terminated with exit code 0
+2022-04-03 18:42:39,507 INFO - Launched DagFileProcessorManager with pid: 62705
+2022-04-03 18:42:39,517 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:42:39,518 INFO - Marked 1 SchedulerJob instances as failed
+2022-04-03 18:42:41,451 INFO - Setting next_dagrun for workflow1 to 2022-03-01T22:00:00+00:00
+2022-04-03 18:42:41,477 INFO - 9 tasks up for execution:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+2022-04-03 18:42:41,477 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 9 task instances ready to be queued
+2022-04-03 18:42:41,478 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:42:41,478 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:42:41,479 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:42:41,479 INFO - DAG workflow1 has 3/16 running and queued tasks
+2022-04-03 18:42:41,479 INFO - DAG workflow1 has 4/16 running and queued tasks
+2022-04-03 18:42:41,480 INFO - DAG workflow1 has 5/16 running and queued tasks
+2022-04-03 18:42:41,480 INFO - DAG workflow1 has 6/16 running and queued tasks
+2022-04-03 18:42:41,480 INFO - DAG workflow1 has 7/16 running and queued tasks
+2022-04-03 18:42:41,480 INFO - DAG workflow1 has 8/16 running and queued tasks
+2022-04-03 18:42:41,481 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-01-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 manual__2022-04-03T16:39:59.606063+00:00 [scheduled]>
+2022-04-03 18:42:41,482 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file1', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:42:41,483 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,483 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file2', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:42:41,483 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,484 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file3', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:42:41,484 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,484 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table1', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,485 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,485 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table2', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,485 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,486 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table3', run_id='scheduled__2022-01-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,486 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,486 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table1', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,487 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,487 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table2', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,487 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,488 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table3', run_id='manual__2022-04-03T16:39:59.606063+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:42:41,488 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:42:41,489 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:43:07,810 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:43:34,199 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:44:00,604 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:44:27,221 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:44:53,675 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-01-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:45:20,196 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:45:46,683 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:13,152 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'manual__2022-04-03T16:39:59.606063+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:39,699 INFO - Executor reports execution of workflow1.check_file1 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,700 INFO - Executor reports execution of workflow1.check_file2 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,700 INFO - Executor reports execution of workflow1.check_file3 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,701 INFO - Executor reports execution of workflow1.create_table1 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,701 INFO - Executor reports execution of workflow1.create_table2 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,701 INFO - Executor reports execution of workflow1.create_table3 run_id=scheduled__2022-01-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,702 INFO - Executor reports execution of workflow1.create_table1 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,702 INFO - Executor reports execution of workflow1.create_table2 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,702 INFO - Executor reports execution of workflow1.create_table3 run_id=manual__2022-04-03T16:39:59.606063+00:00 exited with status success for try_number 1
+2022-04-03 18:46:39,711 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table1, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:45:36.312832+00:00, run_end_date=2022-04-03 16:45:46.481861+00:00, run_duration=10.169029, state=success, executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,711 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table2, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:46:02.790615+00:00, run_end_date=2022-04-03 16:46:12.949773+00:00, run_duration=10.159158, state=success, executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,712 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table3, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:46:29.337655+00:00, run_end_date=2022-04-03 16:46:39.491217+00:00, run_duration=10.153562, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=16, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,712 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table1, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:44:16.742342+00:00, run_end_date=2022-04-03 16:44:27.020495+00:00, run_duration=10.278153, state=success, executor_state=success, try_number=1, max_tries=0, job_id=11, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,712 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table2, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:44:43.333461+00:00, run_end_date=2022-04-03 16:44:53.486461+00:00, run_duration=10.153, state=success, executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,713 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table3, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:45:09.753688+00:00, run_end_date=2022-04-03 16:45:19.974848+00:00, run_duration=10.22116, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:46:39,713 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file1, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:42:57.531173+00:00, run_end_date=2022-04-03 16:43:07.624481+00:00, run_duration=10.093308, state=success, executor_state=success, try_number=1, max_tries=3, job_id=8, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:46:39,713 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file2, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:43:23.917306+00:00, run_end_date=2022-04-03 16:43:34.009639+00:00, run_duration=10.092333, state=success, executor_state=success, try_number=1, max_tries=3, job_id=9, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:46:39,714 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file3, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:43:50.295543+00:00, run_end_date=2022-04-03 16:44:00.419391+00:00, run_duration=10.123848, state=success, executor_state=success, try_number=1, max_tries=3, job_id=10, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:46:39,726 ERROR - DagFileProcessorManager (PID=62705) last sent a heartbeat 238.29 seconds ago! Restarting it
+2022-04-03 18:46:39,729 INFO - Sending Signals.SIGTERM to group 62705. PIDs of all processes in the group: [62705]
+2022-04-03 18:46:39,729 INFO - Sending the signal Signals.SIGTERM to group 62705
+2022-04-03 18:46:39,907 INFO - Process psutil.Process(pid=62705, status='terminated', exitcode=0, started='18:42:39') (62705) terminated with exit code 0
+2022-04-03 18:46:39,913 INFO - Launched DagFileProcessorManager with pid: 63098
+2022-04-03 18:46:41,841 INFO - Setting next_dagrun for workflow1 to 2022-04-01T22:00:00+00:00
+2022-04-03 18:46:41,862 ERROR - Marking run <DagRun workflow1 @ 2022-01-01 22:00:00+00:00: scheduled__2022-01-01T22:00:00+00:00, externally triggered: False> failed
+2022-04-03 18:46:41,863 INFO - DagRun Finished: dag_id=workflow1, execution_date=2022-01-01 22:00:00+00:00, run_id=scheduled__2022-01-01T22:00:00+00:00, run_start_date=2022-04-03 16:40:00.655500+00:00, run_end_date=2022-04-03 16:46:41.863354+00:00, run_duration=401.207854, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2022-01-01 22:00:00+00:00, data_interval_end=2022-02-01 22:00:00+00:00, dag_hash=ed0843dccafc9098f16f1ac17c961cf4
+2022-04-03 18:46:41,864 INFO - Setting next_dagrun for workflow1 to 2022-02-01T22:00:00+00:00
+2022-04-03 18:46:41,867 ERROR - Marking run <DagRun workflow1 @ 2022-04-03 16:39:59.606063+00:00: manual__2022-04-03T16:39:59.606063+00:00, externally triggered: True> failed
+2022-04-03 18:46:41,867 INFO - DagRun Finished: dag_id=workflow1, execution_date=2022-04-03 16:39:59.606063+00:00, run_id=manual__2022-04-03T16:39:59.606063+00:00, run_start_date=2022-04-03 16:40:00.655933+00:00, run_end_date=2022-04-03 16:46:41.867958+00:00, run_duration=401.212025, state=failed, external_trigger=True, run_type=manual, data_interval_start=2022-03-01 22:00:00+00:00, data_interval_end=2022-04-01 22:00:00+00:00, dag_hash=ed0843dccafc9098f16f1ac17c961cf4
+2022-04-03 18:46:41,869 INFO - Setting next_dagrun for workflow1 to 2022-04-01T22:00:00+00:00
+2022-04-03 18:46:41,875 INFO - 6 tasks up for execution:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+2022-04-03 18:46:41,876 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 6 task instances ready to be queued
+2022-04-03 18:46:41,876 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:46:41,877 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:46:41,877 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:46:41,877 INFO - DAG workflow1 has 3/16 running and queued tasks
+2022-04-03 18:46:41,878 INFO - DAG workflow1 has 4/16 running and queued tasks
+2022-04-03 18:46:41,878 INFO - DAG workflow1 has 5/16 running and queued tasks
+2022-04-03 18:46:41,878 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.check_file1 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table1 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-02-01T22:00:00+00:00 [scheduled]>
+2022-04-03 18:46:41,880 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file1', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:46:41,880 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,881 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file2', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:46:41,881 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,881 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file3', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:46:41,882 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,882 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table1', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:46:41,882 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,883 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table2', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:46:41,883 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,883 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table3', run_id='scheduled__2022-02-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:46:41,884 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:46:41,885 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:47:08,215 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:47:34,565 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:48:00,967 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:48:27,615 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:48:54,094 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-02-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:49:20,563 INFO - Executor reports execution of workflow1.check_file1 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,565 INFO - Executor reports execution of workflow1.check_file2 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,566 INFO - Executor reports execution of workflow1.check_file3 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,566 INFO - Executor reports execution of workflow1.create_table1 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,566 INFO - Executor reports execution of workflow1.create_table2 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,567 INFO - Executor reports execution of workflow1.create_table3 run_id=scheduled__2022-02-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:49:20,574 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table1, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:48:17.292441+00:00, run_end_date=2022-04-03 16:48:27.426693+00:00, run_duration=10.134252, state=success, executor_state=success, try_number=1, max_tries=0, job_id=20, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:49:20,575 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table2, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:48:43.722372+00:00, run_end_date=2022-04-03 16:48:53.907165+00:00, run_duration=10.184793, state=success, executor_state=success, try_number=1, max_tries=0, job_id=21, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:49:20,575 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table3, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:49:10.222636+00:00, run_end_date=2022-04-03 16:49:20.383109+00:00, run_duration=10.160473, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:49:20,575 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file1, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:46:57.923898+00:00, run_end_date=2022-04-03 16:47:08.060659+00:00, run_duration=10.136761, state=success, executor_state=success, try_number=1, max_tries=3, job_id=17, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:49:20,576 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file2, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:47:24.293444+00:00, run_end_date=2022-04-03 16:47:34.372616+00:00, run_duration=10.079172, state=success, executor_state=success, try_number=1, max_tries=3, job_id=18, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:49:20,576 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file3, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:47:50.649547+00:00, run_end_date=2022-04-03 16:48:00.785640+00:00, run_duration=10.136093, state=success, executor_state=success, try_number=1, max_tries=3, job_id=19, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:49:20,588 ERROR - DagFileProcessorManager (PID=63098) last sent a heartbeat 158.76 seconds ago! Restarting it
+2022-04-03 18:49:20,592 INFO - Sending Signals.SIGTERM to group 63098. PIDs of all processes in the group: [63098]
+2022-04-03 18:49:20,592 INFO - Sending the signal Signals.SIGTERM to group 63098
+2022-04-03 18:49:20,770 INFO - Process psutil.Process(pid=63098, status='terminated', exitcode=0, started='18:46:39') (63098) terminated with exit code 0
+2022-04-03 18:49:20,777 INFO - Launched DagFileProcessorManager with pid: 63353
+2022-04-03 18:49:20,786 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:49:20,788 INFO - Marked 1 SchedulerJob instances as failed
+2022-04-03 18:49:22,744 ERROR - Marking run <DagRun workflow1 @ 2022-02-01 22:00:00+00:00: scheduled__2022-02-01T22:00:00+00:00, externally triggered: False> failed
+2022-04-03 18:49:22,745 INFO - DagRun Finished: dag_id=workflow1, execution_date=2022-02-01 22:00:00+00:00, run_id=scheduled__2022-02-01T22:00:00+00:00, run_start_date=2022-04-03 16:42:41.456368+00:00, run_end_date=2022-04-03 16:49:22.745582+00:00, run_duration=401.289214, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2022-02-01 22:00:00+00:00, data_interval_end=2022-03-01 22:00:00+00:00, dag_hash=ed0843dccafc9098f16f1ac17c961cf4
+2022-04-03 18:49:22,747 INFO - Setting next_dagrun for workflow1 to 2022-03-01T22:00:00+00:00
+2022-04-03 18:49:22,753 INFO - 3 tasks up for execution:
+	<TaskInstance: workflow1.create_table1 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+2022-04-03 18:49:22,754 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 3 task instances ready to be queued
+2022-04-03 18:49:22,754 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:49:22,755 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:49:22,755 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:49:22,755 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.create_table1 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 scheduled__2022-03-01T22:00:00+00:00 [scheduled]>
+2022-04-03 18:49:22,756 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table1', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:49:22,757 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:49:22,757 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table2', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:49:22,757 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:49:22,758 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table3', run_id='scheduled__2022-03-01T22:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:49:22,758 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:49:22,759 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:49:49,153 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:50:15,707 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'scheduled__2022-03-01T22:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:50:42,193 INFO - Executor reports execution of workflow1.create_table1 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:50:42,195 INFO - Executor reports execution of workflow1.create_table2 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:50:42,195 INFO - Executor reports execution of workflow1.create_table3 run_id=scheduled__2022-03-01T22:00:00+00:00 exited with status success for try_number 1
+2022-04-03 18:50:42,203 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table1, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:49:38.822783+00:00, run_end_date=2022-04-03 16:49:48.981887+00:00, run_duration=10.159104, state=success, executor_state=success, try_number=1, max_tries=0, job_id=23, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:50:42,203 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table2, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:50:05.296916+00:00, run_end_date=2022-04-03 16:50:15.518681+00:00, run_duration=10.221765, state=success, executor_state=success, try_number=1, max_tries=0, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:50:42,204 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table3, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:50:31.821939+00:00, run_end_date=2022-04-03 16:50:41.996962+00:00, run_duration=10.175023, state=success, executor_state=success, try_number=1, max_tries=0, job_id=25, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:50:42,215 ERROR - DagFileProcessorManager (PID=63353) last sent a heartbeat 79.49 seconds ago! Restarting it
+2022-04-03 18:50:42,218 INFO - Sending Signals.SIGTERM to group 63353. PIDs of all processes in the group: [63353]
+2022-04-03 18:50:42,219 INFO - Sending the signal Signals.SIGTERM to group 63353
+2022-04-03 18:50:42,437 INFO - Process psutil.Process(pid=63353, status='terminated', exitcode=0, started='18:49:20') (63353) terminated with exit code 0
+2022-04-03 18:50:42,444 INFO - Launched DagFileProcessorManager with pid: 63513
+2022-04-03 18:50:44,470 INFO - Marking run <DagRun workflow1 @ 2022-03-01 22:00:00+00:00: scheduled__2022-03-01T22:00:00+00:00, externally triggered: False> successful
+2022-04-03 18:50:44,470 INFO - DagRun Finished: dag_id=workflow1, execution_date=2022-03-01 22:00:00+00:00, run_id=scheduled__2022-03-01T22:00:00+00:00, run_start_date=2022-04-03 16:46:41.847081+00:00, run_end_date=2022-04-03 16:50:44.470772+00:00, run_duration=242.623691, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2022-03-01 22:00:00+00:00, data_interval_end=2022-04-01 22:00:00+00:00, dag_hash=8cebbaed627f399789925c11c211b5c6
+2022-04-03 18:50:44,472 INFO - Setting next_dagrun for workflow1 to 2022-04-01T22:00:00+00:00
+2022-04-03 18:50:44,477 INFO - 3 tasks up for execution:
+	<TaskInstance: workflow1.check_file1 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+2022-04-03 18:50:44,478 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 3 task instances ready to be queued
+2022-04-03 18:50:44,479 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:50:44,479 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:50:44,479 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:50:44,480 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.check_file1 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file2 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.check_file3 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+2022-04-03 18:50:44,481 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file1', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:50:44,481 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:50:44,482 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file2', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:50:44,482 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:50:44,482 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='check_file3', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 2 and queue default
+2022-04-03 18:50:44,483 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:50:44,484 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file1', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:51:10,861 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file2', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:51:37,247 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'check_file3', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:03,694 INFO - Executor reports execution of workflow1.check_file1 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:52:03,695 INFO - Executor reports execution of workflow1.check_file2 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:52:03,696 INFO - Executor reports execution of workflow1.check_file3 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:52:03,703 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file1, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:51:00.516003+00:00, run_end_date=2022-04-03 16:51:10.671717+00:00, run_duration=10.155714, state=success, executor_state=success, try_number=1, max_tries=3, job_id=26, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:52:03,704 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file2, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:51:26.974896+00:00, run_end_date=2022-04-03 16:51:37.072713+00:00, run_duration=10.097817, state=success, executor_state=success, try_number=1, max_tries=3, job_id=27, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:52:03,704 INFO - TaskInstance Finished: dag_id=workflow1, task_id=check_file3, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:51:53.323430+00:00, run_end_date=2022-04-03 16:52:03.450957+00:00, run_duration=10.127527, state=success, executor_state=success, try_number=1, max_tries=3, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=FileSensor
+2022-04-03 18:52:03,717 ERROR - DagFileProcessorManager (PID=63513) last sent a heartbeat 79.28 seconds ago! Restarting it
+2022-04-03 18:52:03,720 INFO - Sending Signals.SIGTERM to group 63513. PIDs of all processes in the group: [63513]
+2022-04-03 18:52:03,720 INFO - Sending the signal Signals.SIGTERM to group 63513
+2022-04-03 18:52:03,939 INFO - Process psutil.Process(pid=63513, status='terminated', exitcode=0, started='18:50:42') (63513) terminated with exit code 0
+2022-04-03 18:52:03,945 INFO - Launched DagFileProcessorManager with pid: 63619
+2022-04-03 18:52:05,908 INFO - 3 tasks up for execution:
+	<TaskInstance: workflow1.create_table1 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+2022-04-03 18:52:05,909 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 3 task instances ready to be queued
+2022-04-03 18:52:05,910 INFO - DAG workflow1 has 0/16 running and queued tasks
+2022-04-03 18:52:05,910 INFO - DAG workflow1 has 1/16 running and queued tasks
+2022-04-03 18:52:05,910 INFO - DAG workflow1 has 2/16 running and queued tasks
+2022-04-03 18:52:05,911 INFO - Setting the following tasks to queued state:
+	<TaskInstance: workflow1.create_table1 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table2 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+	<TaskInstance: workflow1.create_table3 manual__2022-04-03T16:49:55.364228+00:00 [scheduled]>
+2022-04-03 18:52:05,912 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table1', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:52:05,912 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:05,913 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table2', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:52:05,913 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:05,913 INFO - Sending TaskInstanceKey(dag_id='workflow1', task_id='create_table3', run_id='manual__2022-04-03T16:49:55.364228+00:00', try_number=1) to executor with priority 1 and queue default
+2022-04-03 18:52:05,914 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:05,914 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table1', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:32,351 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table2', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:52:58,837 INFO - Executing command: ['airflow', 'tasks', 'run', 'workflow1', 'create_table3', 'manual__2022-04-03T16:49:55.364228+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_file.py']
+2022-04-03 18:53:25,340 INFO - Executor reports execution of workflow1.create_table1 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:53:25,341 INFO - Executor reports execution of workflow1.create_table2 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:53:25,341 INFO - Executor reports execution of workflow1.create_table3 run_id=manual__2022-04-03T16:49:55.364228+00:00 exited with status success for try_number 1
+2022-04-03 18:53:25,349 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table1, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:52:21.969801+00:00, run_end_date=2022-04-03 16:52:32.150240+00:00, run_duration=10.180439, state=success, executor_state=success, try_number=1, max_tries=0, job_id=29, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:53:25,349 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table2, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:52:48.480909+00:00, run_end_date=2022-04-03 16:52:58.634154+00:00, run_duration=10.153245, state=success, executor_state=success, try_number=1, max_tries=0, job_id=30, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:53:25,350 INFO - TaskInstance Finished: dag_id=workflow1, task_id=create_table3, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:53:14.921343+00:00, run_end_date=2022-04-03 16:53:25.155149+00:00, run_duration=10.233806, state=success, executor_state=success, try_number=1, max_tries=0, job_id=31, pool=default_pool, queue=default, priority_weight=1, operator=PostgresOperator
+2022-04-03 18:53:25,361 ERROR - DagFileProcessorManager (PID=63619) last sent a heartbeat 79.47 seconds ago! Restarting it
+2022-04-03 18:53:25,364 INFO - Sending Signals.SIGTERM to group 63619. PIDs of all processes in the group: [63619]
+2022-04-03 18:53:25,364 INFO - Sending the signal Signals.SIGTERM to group 63619
+2022-04-03 18:53:25,591 INFO - Process psutil.Process(pid=63619, status='terminated', exitcode=0, started='18:52:03') (63619) terminated with exit code 0
+2022-04-03 18:53:25,597 INFO - Launched DagFileProcessorManager with pid: 63732
+2022-04-03 18:53:27,518 INFO - Marking run <DagRun workflow1 @ 2022-04-03 16:49:55.364228+00:00: manual__2022-04-03T16:49:55.364228+00:00, externally triggered: True> successful
+2022-04-03 18:53:27,518 INFO - DagRun Finished: dag_id=workflow1, execution_date=2022-04-03 16:49:55.364228+00:00, run_id=manual__2022-04-03T16:49:55.364228+00:00, run_start_date=2022-04-03 16:50:44.453100+00:00, run_end_date=2022-04-03 16:53:27.518613+00:00, run_duration=163.065513, state=success, external_trigger=True, run_type=manual, data_interval_start=2022-03-01 22:00:00+00:00, data_interval_end=2022-04-01 22:00:00+00:00, dag_hash=8cebbaed627f399789925c11c211b5c6
+2022-04-03 18:53:27,520 INFO - Setting next_dagrun for workflow1 to 2022-04-01T22:00:00+00:00
+2022-04-03 18:54:21,921 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 18:59:22,544 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 19:04:23,300 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 19:09:24,311 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 19:14:24,785 INFO - Resetting orphaned tasks for active dag runs
+2022-04-03 19:19:25,391 INFO - Resetting orphaned tasks for active dag runs

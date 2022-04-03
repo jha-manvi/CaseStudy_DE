@@ -2,6 +2,10 @@ from airflow import DAG
 from datetime import datetime,timedelta,date
 from airflow.operators.bash_operator import BashOperator
 from airflow.contrib.sensors.file_sensor import FileSensor
+from airflow.providers.postgres.operators.postgres import PostgresOperator
+from sqlalchemy import create_engine
+
+
 #default_args = {"owner":"admin","start_date":datetime(2022,1,1)}
 type1='products'
 type2='prices'
@@ -16,6 +20,7 @@ upload_path1="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+
 upload_path2="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type2+".csv"
 upload_path3="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type3+".csv"
 
+engine = create_engine('postgresql://postgres:1234@localhost:5432/airflow_db')
 
 #schedule interval is 10pm on 1st of each month
 with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime(2022,1,1)) as dag:
@@ -43,5 +48,25 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         filepath=upload_path3,
     )
 
-    check_file1>>check_file2>>check_file3
+    create_table1 = PostgresOperator(
+        task_id="create_table1",
+        postgres_conn_id='postgres_db',
+        sql='CREATE TABLE IF NOT EXISTS products (id bigint primary key,deleted smallint,releasedversion smallint,productcode varchar(255), productname varchar(255),energy varchar(255),consumptiontype varchar(255), modificationdate date)'
+    )
+
+    create_table2 = PostgresOperator(
+        task_id="create_table2",
+        postgres_conn_id='postgres_db',
+        sql='CREATE TABLE IF NOT EXISTS prices (id bigint primary key,productid int,pricecomponentid int,pricecomponent varchar(255),price decimal(38,10), unit varchar(255),valid_from date,valid_until date, modificationdate date)'
+    )
+
+    create_table3 = PostgresOperator(
+        task_id="create_table3",
+        postgres_conn_id='postgres_db',
+        sql='CREATE TABLE IF NOT EXISTS contracts (id bigint primary key,type varchar(255),energy varchar(255),usage int,usagenet int,createdat date,startdate date,enddate date,filingdatecancellation date,cancellationreason varchar(255),city varchar(255),status varchar(255),productid int, modificationdate date)'
+    )
+
+    check_file1>>create_table1
+    check_file2>>create_table2
+    check_file3>>create_table3
 
