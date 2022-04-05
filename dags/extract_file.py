@@ -110,10 +110,16 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         sql='insert into contracts_post ( select distinct a.* from (select id ,type ,energy ,usage ,usagenet ,createdat ,startdate ,enddate ,fillingdatecancellation ,cancellationreason ,city ,status,productid , modificationdate from contracts ) a inner join (select id , max(modificationdate) as maxd from contracts group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
     )
 
+    op1=PostgresOperator(
+        task_id="op1",
+        postgres_conn_id='postgres_db',
+        sql = 'insert into output_to_analyst_mid ( select distinct createdat,usage,productcode,productname,pricecomponentid,productcomponent,price from (select a.createdat,a.usage,b.id,b.productcode,b.productname from (select * from contracts_post ) a left outer join (select * from products_post) b  on a.productid=b.id and a.energy=b.energy ) a1 left outer join (select * from prices_post) c on a1.id=c.productid);'
+    )
+
     
 
-    check_file1>>create_table1>>insert1>>validate_table1
-    check_file2>>create_table2>>insert2>>validate_table2
-    check_file3>>create_table3>>insert3>>validate_table3
+    check_file1>>create_table1>>insert1>>validate1
+    check_file2>>create_table2>>insert2>>validate2
+    check_file3>>create_table3>>insert3>>validate3
 
     

@@ -3,3 +3,16 @@
 [2022-04-05 21:45:04 +0200] [4266] [INFO] Using worker: sync
 [2022-04-05 21:45:04 +0200] [4270] [INFO] Booting worker with pid: 4270
 [2022-04-05 21:45:04 +0200] [4271] [INFO] Booting worker with pid: 4271
+[2022-04-05 22:53:26 +0200] [4266] [CRITICAL] WORKER TIMEOUT (pid:4270)
+[2022-04-05 22:53:26 +0200] [4266] [CRITICAL] WORKER TIMEOUT (pid:4271)
+[2022-04-05 22:53:26 +0200] [4271] [INFO] Worker exiting (pid: 4271)
+[2022-04-05 22:53:26 +0200] [4270] [INFO] Worker exiting (pid: 4270)
+[2022-04-05 22:53:26 +0200] [8656] [INFO] Booting worker with pid: 8656
+[2022-04-05 22:53:26 +0200] [4266] [WARNING] Worker with pid 4270 was terminated due to signal 9
+[2022-04-05 22:53:26 +0200] [8658] [INFO] Booting worker with pid: 8658
+[2022-04-05 22:59:59 +0200] [4266] [CRITICAL] WORKER TIMEOUT (pid:8656)
+[2022-04-05 22:59:59 +0200] [4266] [CRITICAL] WORKER TIMEOUT (pid:8658)
+[2022-04-05 22:59:59 +0200] [8656] [INFO] Worker exiting (pid: 8656)
+[2022-04-05 22:59:59 +0200] [8658] [INFO] Worker exiting (pid: 8658)
+[2022-04-05 22:59:59 +0200] [8983] [INFO] Booting worker with pid: 8983
+[2022-04-05 22:59:59 +0200] [8985] [INFO] Booting worker with pid: 8985
