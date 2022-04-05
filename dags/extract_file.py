@@ -62,19 +62,19 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
     create_table1 = PostgresOperator(
         task_id="create_table1",
         postgres_conn_id='postgres_db',
-        sql='CREATE TABLE IF NOT EXISTS products (id bigint primary key,deleted smallint,releasedversion smallint,productcode varchar(255), productname varchar(255),energy varchar(255),consumptiontype varchar(255), modificationdate date)'
+        sql='CREATE TABLE IF NOT EXISTS products (id bigint ,deleted smallint,releasedversion smallint,productcode varchar(255), productname varchar(255),energy varchar(255),consumptiontype varchar(255), modificationdate date)'
     )
 
     create_table2 = PostgresOperator(
         task_id="create_table2",
         postgres_conn_id='postgres_db',
-        sql='CREATE TABLE IF NOT EXISTS prices (id bigint primary key,productid int,pricecomponentid int,productcomponent varchar(255),price decimal(38,10), unit varchar(255),valid_from date,valid_until date, modificationdate date)'
+        sql='CREATE TABLE IF NOT EXISTS prices (id bigint ,productid int,pricecomponentid int,productcomponent varchar(255),price decimal(38,10), unit varchar(255),valid_from date,valid_until date, modificationdate date)'
     )
 
     create_table3 = PostgresOperator(
         task_id="create_table3",
         postgres_conn_id='postgres_db',
-        sql='CREATE TABLE IF NOT EXISTS contracts (id bigint primary key,type varchar(255),energy varchar(255),usage int,usagenet int,createdat date,startdate date,enddate date,fillingdatecancellation date,cancellationreason varchar(255),city varchar(255),status varchar(255),productid int, modificationdate date)'
+        sql='CREATE TABLE IF NOT EXISTS contracts (id bigint ,type varchar(255),energy varchar(255),usage int,usagenet int,createdat date,startdate date,enddate date,fillingdatecancellation date,cancellationreason varchar(255),city varchar(255),status varchar(255),productid int, modificationdate date)'
     )
 
     insert1 = PythonOperator(
@@ -92,9 +92,28 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         python_callable = insert_cont
     )
 
-    check_file1>>create_table1>>insert1
-    check_file2>>create_table2>>insert2
-    check_file3>>create_table3>>insert3
+    validate1 = PostgresOperator(
+        task_id="validate_table1",
+        postgres_conn_id='postgres_db',
+        sql='insert into products_post ( select distinct a.* from (select id,deleted, releasedversion,productcode,productname,energy ,consumptiontype,modificationdate from products )a inner join (select id , max(modificationdate) as maxd from products group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
+    )
+
+    validate2 = PostgresOperator(
+        task_id="validate_table2",
+        postgres_conn_id='postgres_db',
+        sql='insert into prices_post ( select distinct a.* from (select id  ,productid ,pricecomponentid ,productcomponent ,price , unit ,valid_from ,valid_until , modificationdate from prices ) a inner join (select id , max(modificationdate) as maxd from prices group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
+    )
+
+    validate3 = PostgresOperator(
+        task_id="validate_table3",
+        postgres_conn_id='postgres_db',
+        sql='insert into contracts_post ( select distinct a.* from (select id ,type ,energy ,usage ,usagenet ,createdat ,startdate ,enddate ,fillingdatecancellation ,cancellationreason ,city ,status,productid , modificationdate from contracts ) a inner join (select id , max(modificationdate) as maxd from contracts group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
+    )
 
     
 
+    check_file1>>create_table1>>insert1>>validate_table1
+    check_file2>>create_table2>>insert2>>validate_table2
+    check_file3>>create_table3>>insert3>>validate_table3
+
+    
