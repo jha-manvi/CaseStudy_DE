@@ -2,7 +2,6 @@ from datetime import datetime,timedelta,date
 from sqlalchemy import create_engine
 import glob
 import pandas as pd
-from sqlalchemy.orm import sessionmaker
 
 
 def insert_cont():
@@ -16,10 +15,6 @@ def insert_cont():
     g=glob.glob("/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type1+".csv")[0]
     engine = create_engine('postgresql://postgres:1234@localhost:5432/airflow_db')
 
-    Session = sessionmaker(engine)
-
-    with Session() as session:
-        expire_on_commit=False
 
     df=pd.read_csv(g,sep=";")
     df.to_sql(

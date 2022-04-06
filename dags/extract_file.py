@@ -25,7 +25,6 @@ upload_path1="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+
 upload_path2="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type2+".csv"
 upload_path3="/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type3+".csv"
 
-s1 = glob.glob("/Users/manvijha/Documents/MyProjects/CaseStudy_DE/src_data/"+yyyy+mm+dd+"*_"+type1+".csv")[0]
 
 engine = create_engine('postgresql://postgres:1234@localhost:5432/airflow_db')
 
@@ -92,6 +91,8 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         python_callable = insert_cont
     )
 
+#Performing data validity on all the tables. It was noticed that there were multiple records with same IDs, so considering the record with latest modification date as the valid row
+ 
     validate1 = PostgresOperator(
         task_id="validate_table1",
         postgres_conn_id='postgres_db',
@@ -110,18 +111,22 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         sql='insert into contracts_post ( select distinct a.* from (select id ,type ,energy ,usage ,usagenet ,createdat ,startdate ,enddate ,fillingdatecancellation ,cancellationreason ,city ,status,productid , modificationdate from contracts ) a inner join (select id , max(modificationdate) as maxd from contracts group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
     )
 
+
+#Joining all the 3 tables
     mid_result_op=PostgresOperator(
         task_id="op1",
         postgres_conn_id='postgres_db',
         sql = "insert into output_to_analyst_mid ( select distinct createdat,usage,productcode,productname,pricecomponentid,productcomponent,price from (select a.createdat,a.usage,b.id,b.productcode,b.productname from (select * from contracts_post ) a left outer join (select * from products_post) b  on a.productid=b.id and a.energy=b.energy ) a1 left outer join (select * from prices_post where valid_until='9999-12-31') c on a1.id=c.productid);"
     )
 
+#Pivoting up rows into columns
     final_result_op=PostgresOperator(
         task_id="op_final",
         postgres_conn_id='postgres_db',
         sql = "insert into fin_out(select createdat,productname,sum(consumption) as consumption,sum(revenue) as revenue from ( select productname,createdat,usage as consumption, (baseprice+(usage*workingprice)) as revenue from ( select distinct a1.createdat,a1.usage,a1.productname,avg(workingprice) as workingprice, avg(baseprice) as baseprice from  (select createdat,usage,productname, price as workingprice from output_to_analyst_mid where productcomponent='workingprice') a1 inner join (select createdat,usage,productname, price as baseprice from output_to_analyst_mid where productcomponent='baseprice') b1 on a1.createdat=b1.createdat and a1.usage=b1.usage and a1.productname=b1.productname   group by 1,2,3) as e order by productname , createdat) f group by 1,2 order by 1,2)"
     )
 
+#Mid and final table for solving question 1
     answer1_mid=PostgresOperator(
         task_id="answer1_mid",
         postgres_conn_id='postgres_db',
