@@ -142,3 +142,5 @@
 [[34m2022-04-06 19:38:53,507[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2022-04-06 19:43:54,642[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2022-04-06 19:48:55,992[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-06 19:53:56,234[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-04-06 19:58:57,697[0m] {[34mscheduler_job.py:[0m1137} INFO[0m - Resetting orphaned tasks for active dag runs[0m

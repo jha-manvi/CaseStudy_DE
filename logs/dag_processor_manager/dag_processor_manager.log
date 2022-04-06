@@ -19950,3 +19950,243 @@ File Path                                                               PID    R
 /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.47s           2022-04-06T17:52:30
 /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.52s           2022-04-06T17:53:01
 ================================================================================
+[2022-04-06 19:53:10,380] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:53:10,382] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:48:10.382827+00:00
+[2022-04-06 19:53:20,888] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:53:20,891] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:48:20.890968+00:00
+[2022-04-06 19:53:31,102] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:53:31,104] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:48:31.104210+00:00
+[2022-04-06 19:53:32,612] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T17:53:04
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.49s           2022-04-06T17:53:32
+================================================================================
+[2022-04-06 19:53:42,667] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:53:42,669] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:48:42.669488+00:00
+[2022-04-06 19:53:54,597] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:53:54,599] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:48:54.599105+00:00
+[2022-04-06 19:54:04,073] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.34s           2022-04-06T17:53:40
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.60s           2022-04-06T17:54:04
+================================================================================
+[2022-04-06 19:54:05,102] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:05,102] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:05.102854+00:00
+[2022-04-06 19:54:16,964] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:16,965] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:16.965907+00:00
+[2022-04-06 19:54:27,560] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:27,562] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:27.562841+00:00
+[2022-04-06 19:54:34,446] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.47s           2022-04-06T17:54:15
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.57s           2022-04-06T17:54:34
+================================================================================
+[2022-04-06 19:54:38,227] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:38,230] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:38.230465+00:00
+[2022-04-06 19:54:48,685] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:48,688] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:48.688348+00:00
+[2022-04-06 19:54:59,210] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:54:59,211] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:49:59.211591+00:00
+[2022-04-06 19:55:06,575] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T17:54:50
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.70s           2022-04-06T17:55:06
+================================================================================
+[2022-04-06 19:55:10,233] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:55:10,235] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:50:10.235523+00:00
+[2022-04-06 19:55:20,777] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:55:20,779] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:50:20.778988+00:00
+[2022-04-06 19:55:31,102] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:55:31,104] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:50:31.104933+00:00
+[2022-04-06 19:55:37,929] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T17:55:24
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.56s           2022-04-06T17:55:37
+================================================================================
+[2022-04-06 19:55:41,517] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:55:41,519] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:50:41.519089+00:00
+[2022-04-06 19:55:51,950] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:55:51,951] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:50:51.951819+00:00
+[2022-04-06 19:56:02,253] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:02,256] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:02.256307+00:00
+[2022-04-06 19:56:09,279] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.38s           2022-04-06T17:56:01
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.68s           2022-04-06T17:56:09
+================================================================================
+[2022-04-06 19:56:12,953] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:12,954] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:12.954930+00:00
+[2022-04-06 19:56:23,359] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:23,361] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:23.361685+00:00
+[2022-04-06 19:56:33,444] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:33,445] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:33.445080+00:00
+[2022-04-06 19:56:41,504] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.39s           2022-04-06T17:56:37
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.57s           2022-04-06T17:56:41
+================================================================================
+[2022-04-06 19:56:44,916] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:44,918] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:44.918099+00:00
+[2022-04-06 19:56:55,439] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:56:55,442] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:51:55.441954+00:00
+[2022-04-06 19:57:06,103] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:06,104] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:06.104442+00:00
+[2022-04-06 19:57:08,778] {manager.py:663} INFO - Searching for files in /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags
+[2022-04-06 19:57:08,789] {manager.py:666} INFO - There are 2 files in /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags
+[2022-04-06 19:57:13,006] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.50s           2022-04-06T17:57:13
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.65s           2022-04-06T17:57:10
+================================================================================
+[2022-04-06 19:57:16,651] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:16,653] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:16.653346+00:00
+[2022-04-06 19:57:27,025] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:27,028] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:27.028493+00:00
+[2022-04-06 19:57:37,528] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:37,531] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:37.531599+00:00
+[2022-04-06 19:57:44,411] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.50s           2022-04-06T17:57:13
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.60s           2022-04-06T17:57:44
+================================================================================
+[2022-04-06 19:57:48,083] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:48,085] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:48.085688+00:00
+[2022-04-06 19:57:58,430] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:57:58,433] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:52:58.433824+00:00
+[2022-04-06 19:58:08,923] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:58:08,925] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:53:08.925615+00:00
+[2022-04-06 19:58:15,753] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.37s           2022-04-06T17:57:49
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.60s           2022-04-06T17:58:15
+================================================================================
+[2022-04-06 19:58:19,399] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:58:19,401] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:53:19.401774+00:00
+[2022-04-06 19:58:29,701] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:58:29,702] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:53:29.702857+00:00
+[2022-04-06 19:58:40,293] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:58:40,296] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:53:40.296184+00:00
+[2022-04-06 19:58:47,192] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T17:58:26
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.60s           2022-04-06T17:58:47
+================================================================================
+[2022-04-06 19:58:50,854] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:58:50,856] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:53:50.856385+00:00
+[2022-04-06 19:59:01,180] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:01,183] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:01.183007+00:00
+[2022-04-06 19:59:11,660] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:11,661] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:11.661921+00:00
+[2022-04-06 19:59:18,519] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.44s           2022-04-06T17:59:00
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.60s           2022-04-06T17:59:18
+================================================================================
+[2022-04-06 19:59:22,110] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:22,112] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:22.112435+00:00
+[2022-04-06 19:59:32,678] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:32,681] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:32.680979+00:00
+[2022-04-06 19:59:43,173] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:43,175] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:43.175335+00:00
+[2022-04-06 19:59:50,113] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.36s           2022-04-06T17:59:36
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.64s           2022-04-06T17:59:50
+================================================================================
+[2022-04-06 19:59:53,810] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 19:59:53,812] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:54:53.812060+00:00
+[2022-04-06 20:00:05,675] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:05,678] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:05.678352+00:00
+[2022-04-06 20:00:16,018] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:16,020] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:16.020324+00:00
+[2022-04-06 20:00:20,187] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.45s           2022-04-06T18:00:12
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.55s           2022-04-06T18:00:20
+================================================================================
+[2022-04-06 20:00:26,493] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:26,496] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:26.496582+00:00
+[2022-04-06 20:00:37,136] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:37,139] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:37.139884+00:00
+[2022-04-06 20:00:47,675] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:47,677] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:47.677848+00:00
+[2022-04-06 20:00:51,741] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T18:00:49
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.58s           2022-04-06T18:00:51
+================================================================================
+[2022-04-06 20:00:58,009] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:00:58,011] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:55:58.011503+00:00
+[2022-04-06 20:01:08,452] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:01:08,454] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:56:08.454715+00:00
+[2022-04-06 20:01:18,841] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-06 20:01:18,844] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-06 17:56:18.844227+00:00
+[2022-04-06 20:01:23,135] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py                               1           0  1.43s           2022-04-06T18:00:49
+/Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/extract_file.py                           1           0  1.61s           2022-04-06T18:01:23
+================================================================================
