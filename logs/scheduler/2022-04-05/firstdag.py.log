@@ -1447,3 +1447,717 @@
 [2022-04-06 00:03:02,641] {logging_mixin.py:109} INFO - [2022-04-06 00:03:02,641] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-04-06 00:03:02,646] {logging_mixin.py:109} INFO - [2022-04-06 00:03:02,646] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:02:00+00:00
 [2022-04-06 00:03:02,649] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 00:03:38,097] {processor.py:163} INFO - Started process (PID=13905) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:03:38,097] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:03:38,097] {logging_mixin.py:109} INFO - [2022-04-06 00:03:38,097] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:03:38,468] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:03:38,477] {logging_mixin.py:109} INFO - [2022-04-06 00:03:38,477] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:03:38,481] {logging_mixin.py:109} INFO - [2022-04-06 00:03:38,481] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:02:00+00:00
+[2022-04-06 00:03:38,484] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.388 seconds
+[2022-04-06 00:04:13,192] {processor.py:163} INFO - Started process (PID=13940) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:13,193] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:04:13,193] {logging_mixin.py:109} INFO - [2022-04-06 00:04:13,193] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:13,659] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:13,681] {logging_mixin.py:109} INFO - [2022-04-06 00:04:13,681] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:04:13,686] {logging_mixin.py:109} INFO - [2022-04-06 00:04:13,685] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:03:00+00:00
+[2022-04-06 00:04:13,692] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.500 seconds
+[2022-04-06 00:04:47,863] {processor.py:163} INFO - Started process (PID=13974) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:47,864] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:04:47,864] {logging_mixin.py:109} INFO - [2022-04-06 00:04:47,864] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:48,219] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:04:48,228] {logging_mixin.py:109} INFO - [2022-04-06 00:04:48,228] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:04:48,232] {logging_mixin.py:109} INFO - [2022-04-06 00:04:48,232] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:03:00+00:00
+[2022-04-06 00:04:48,236] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.372 seconds
+[2022-04-06 00:05:22,663] {processor.py:163} INFO - Started process (PID=14010) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:22,664] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:05:22,664] {logging_mixin.py:109} INFO - [2022-04-06 00:05:22,664] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:23,012] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:23,021] {logging_mixin.py:109} INFO - [2022-04-06 00:05:23,021] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:05:23,026] {logging_mixin.py:109} INFO - [2022-04-06 00:05:23,026] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:04:00+00:00
+[2022-04-06 00:05:23,029] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.366 seconds
+[2022-04-06 00:05:55,776] {processor.py:163} INFO - Started process (PID=14041) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:55,776] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:05:55,776] {logging_mixin.py:109} INFO - [2022-04-06 00:05:55,776] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:56,130] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:05:56,138] {logging_mixin.py:109} INFO - [2022-04-06 00:05:56,138] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:05:56,143] {logging_mixin.py:109} INFO - [2022-04-06 00:05:56,143] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:04:00+00:00
+[2022-04-06 00:05:56,146] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.371 seconds
+[2022-04-06 00:06:31,355] {processor.py:163} INFO - Started process (PID=14078) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:06:31,355] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:06:31,355] {logging_mixin.py:109} INFO - [2022-04-06 00:06:31,355] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:06:31,715] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:06:31,724] {logging_mixin.py:109} INFO - [2022-04-06 00:06:31,724] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:06:31,729] {logging_mixin.py:109} INFO - [2022-04-06 00:06:31,729] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:05:00+00:00
+[2022-04-06 00:06:31,732] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.378 seconds
+[2022-04-06 00:07:07,798] {processor.py:163} INFO - Started process (PID=14126) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:07,798] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:07:07,799] {logging_mixin.py:109} INFO - [2022-04-06 00:07:07,799] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:08,154] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:08,163] {logging_mixin.py:109} INFO - [2022-04-06 00:07:08,163] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:07:08,168] {logging_mixin.py:109} INFO - [2022-04-06 00:07:08,168] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:06:00+00:00
+[2022-04-06 00:07:08,172] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.374 seconds
+[2022-04-06 00:07:43,817] {processor.py:163} INFO - Started process (PID=14162) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:43,818] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:07:43,818] {logging_mixin.py:109} INFO - [2022-04-06 00:07:43,818] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:44,169] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:07:44,178] {logging_mixin.py:109} INFO - [2022-04-06 00:07:44,178] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:07:44,183] {logging_mixin.py:109} INFO - [2022-04-06 00:07:44,183] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:06:00+00:00
+[2022-04-06 00:07:44,186] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.369 seconds
+[2022-04-06 00:08:19,172] {processor.py:163} INFO - Started process (PID=14193) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:19,175] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:08:19,175] {logging_mixin.py:109} INFO - [2022-04-06 00:08:19,175] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:19,535] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:19,545] {logging_mixin.py:109} INFO - [2022-04-06 00:08:19,545] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:08:19,550] {logging_mixin.py:109} INFO - [2022-04-06 00:08:19,550] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:07:00+00:00
+[2022-04-06 00:08:19,553] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.381 seconds
+[2022-04-06 00:08:53,702] {processor.py:163} INFO - Started process (PID=14222) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:53,702] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:08:53,703] {logging_mixin.py:109} INFO - [2022-04-06 00:08:53,703] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:54,147] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:08:54,156] {logging_mixin.py:109} INFO - [2022-04-06 00:08:54,156] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:08:54,161] {logging_mixin.py:109} INFO - [2022-04-06 00:08:54,161] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:07:00+00:00
+[2022-04-06 00:08:54,164] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.463 seconds
+[2022-04-06 00:09:29,830] {processor.py:163} INFO - Started process (PID=14254) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:09:29,832] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:09:29,832] {logging_mixin.py:109} INFO - [2022-04-06 00:09:29,832] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:09:30,225] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:09:30,235] {logging_mixin.py:109} INFO - [2022-04-06 00:09:30,235] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:09:30,240] {logging_mixin.py:109} INFO - [2022-04-06 00:09:30,240] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:08:00+00:00
+[2022-04-06 00:09:30,243] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.413 seconds
+[2022-04-06 00:10:06,133] {processor.py:163} INFO - Started process (PID=14288) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:06,134] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:10:06,134] {logging_mixin.py:109} INFO - [2022-04-06 00:10:06,134] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:06,490] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:06,499] {logging_mixin.py:109} INFO - [2022-04-06 00:10:06,499] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:10:06,504] {logging_mixin.py:109} INFO - [2022-04-06 00:10:06,504] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:09:00+00:00
+[2022-04-06 00:10:06,507] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.374 seconds
+[2022-04-06 00:10:41,134] {processor.py:163} INFO - Started process (PID=14318) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:41,135] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:10:41,135] {logging_mixin.py:109} INFO - [2022-04-06 00:10:41,135] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:41,501] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:10:41,511] {logging_mixin.py:109} INFO - [2022-04-06 00:10:41,511] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:10:41,516] {logging_mixin.py:109} INFO - [2022-04-06 00:10:41,516] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:09:00+00:00
+[2022-04-06 00:10:41,519] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.385 seconds
+[2022-04-06 00:11:15,408] {processor.py:163} INFO - Started process (PID=14361) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:15,408] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:11:15,408] {logging_mixin.py:109} INFO - [2022-04-06 00:11:15,408] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:15,762] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:15,771] {logging_mixin.py:109} INFO - [2022-04-06 00:11:15,771] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:11:15,776] {logging_mixin.py:109} INFO - [2022-04-06 00:11:15,776] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:10:00+00:00
+[2022-04-06 00:11:15,780] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.373 seconds
+[2022-04-06 00:11:49,362] {processor.py:163} INFO - Started process (PID=14393) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:49,362] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:11:49,362] {logging_mixin.py:109} INFO - [2022-04-06 00:11:49,362] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:49,713] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:11:49,722] {logging_mixin.py:109} INFO - [2022-04-06 00:11:49,722] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:11:49,727] {logging_mixin.py:109} INFO - [2022-04-06 00:11:49,727] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:10:00+00:00
+[2022-04-06 00:11:49,730] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.368 seconds
+[2022-04-06 00:12:23,834] {processor.py:163} INFO - Started process (PID=14424) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:23,834] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:12:23,834] {logging_mixin.py:109} INFO - [2022-04-06 00:12:23,834] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:24,193] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:24,201] {logging_mixin.py:109} INFO - [2022-04-06 00:12:24,201] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:12:24,206] {logging_mixin.py:109} INFO - [2022-04-06 00:12:24,206] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:11:00+00:00
+[2022-04-06 00:12:24,210] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:12:58,797] {processor.py:163} INFO - Started process (PID=14455) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:58,798] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:12:58,799] {logging_mixin.py:109} INFO - [2022-04-06 00:12:58,799] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:59,156] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:12:59,166] {logging_mixin.py:109} INFO - [2022-04-06 00:12:59,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:12:59,170] {logging_mixin.py:109} INFO - [2022-04-06 00:12:59,170] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:11:00+00:00
+[2022-04-06 00:12:59,174] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.377 seconds
+[2022-04-06 00:13:33,430] {processor.py:163} INFO - Started process (PID=14486) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:13:33,430] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:13:33,430] {logging_mixin.py:109} INFO - [2022-04-06 00:13:33,430] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:13:33,789] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:13:33,798] {logging_mixin.py:109} INFO - [2022-04-06 00:13:33,798] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:13:33,803] {logging_mixin.py:109} INFO - [2022-04-06 00:13:33,803] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:12:00+00:00
+[2022-04-06 00:13:33,807] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.377 seconds
+[2022-04-06 00:14:08,524] {processor.py:163} INFO - Started process (PID=14519) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:08,525] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:14:08,525] {logging_mixin.py:109} INFO - [2022-04-06 00:14:08,525] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:08,935] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:08,945] {logging_mixin.py:109} INFO - [2022-04-06 00:14:08,945] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:14:08,950] {logging_mixin.py:109} INFO - [2022-04-06 00:14:08,950] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:13:00+00:00
+[2022-04-06 00:14:08,953] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.430 seconds
+[2022-04-06 00:14:44,724] {processor.py:163} INFO - Started process (PID=14550) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:44,726] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:14:44,727] {logging_mixin.py:109} INFO - [2022-04-06 00:14:44,727] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:45,096] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:14:45,105] {logging_mixin.py:109} INFO - [2022-04-06 00:14:45,105] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:14:45,110] {logging_mixin.py:109} INFO - [2022-04-06 00:14:45,110] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:13:00+00:00
+[2022-04-06 00:14:45,113] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.390 seconds
+[2022-04-06 00:15:20,012] {processor.py:163} INFO - Started process (PID=14582) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:20,013] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:15:20,013] {logging_mixin.py:109} INFO - [2022-04-06 00:15:20,013] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:20,425] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:20,434] {logging_mixin.py:109} INFO - [2022-04-06 00:15:20,434] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:15:20,439] {logging_mixin.py:109} INFO - [2022-04-06 00:15:20,439] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:14:00+00:00
+[2022-04-06 00:15:20,443] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.432 seconds
+[2022-04-06 00:15:55,663] {processor.py:163} INFO - Started process (PID=14614) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:55,664] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:15:55,664] {logging_mixin.py:109} INFO - [2022-04-06 00:15:55,664] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:56,024] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:15:56,034] {logging_mixin.py:109} INFO - [2022-04-06 00:15:56,033] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:15:56,038] {logging_mixin.py:109} INFO - [2022-04-06 00:15:56,038] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:14:00+00:00
+[2022-04-06 00:15:56,042] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:16:30,285] {processor.py:163} INFO - Started process (PID=14643) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:16:30,286] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:16:30,286] {logging_mixin.py:109} INFO - [2022-04-06 00:16:30,286] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:16:30,649] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:16:30,659] {logging_mixin.py:109} INFO - [2022-04-06 00:16:30,658] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:16:30,663] {logging_mixin.py:109} INFO - [2022-04-06 00:16:30,663] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:15:00+00:00
+[2022-04-06 00:16:30,666] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 00:17:05,067] {processor.py:163} INFO - Started process (PID=14675) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:05,067] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:17:05,068] {logging_mixin.py:109} INFO - [2022-04-06 00:17:05,068] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:05,433] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:05,443] {logging_mixin.py:109} INFO - [2022-04-06 00:17:05,442] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:17:05,447] {logging_mixin.py:109} INFO - [2022-04-06 00:17:05,447] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:16:00+00:00
+[2022-04-06 00:17:05,451] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.384 seconds
+[2022-04-06 00:17:39,556] {processor.py:163} INFO - Started process (PID=14705) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:39,557] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:17:39,557] {logging_mixin.py:109} INFO - [2022-04-06 00:17:39,557] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:39,932] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:17:39,941] {logging_mixin.py:109} INFO - [2022-04-06 00:17:39,941] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:17:39,946] {logging_mixin.py:109} INFO - [2022-04-06 00:17:39,946] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:16:00+00:00
+[2022-04-06 00:17:39,949] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.393 seconds
+[2022-04-06 00:18:15,319] {processor.py:163} INFO - Started process (PID=14736) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:15,320] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:18:15,320] {logging_mixin.py:109} INFO - [2022-04-06 00:18:15,320] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:15,703] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:15,712] {logging_mixin.py:109} INFO - [2022-04-06 00:18:15,712] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:18:15,717] {logging_mixin.py:109} INFO - [2022-04-06 00:18:15,717] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:17:00+00:00
+[2022-04-06 00:18:15,721] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.403 seconds
+[2022-04-06 00:18:50,368] {processor.py:163} INFO - Started process (PID=14767) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:50,369] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:18:50,370] {logging_mixin.py:109} INFO - [2022-04-06 00:18:50,370] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:50,726] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:18:50,735] {logging_mixin.py:109} INFO - [2022-04-06 00:18:50,735] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:18:50,740] {logging_mixin.py:109} INFO - [2022-04-06 00:18:50,740] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:17:00+00:00
+[2022-04-06 00:18:50,743] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.375 seconds
+[2022-04-06 00:19:25,022] {processor.py:163} INFO - Started process (PID=14799) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:19:25,022] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:19:25,022] {logging_mixin.py:109} INFO - [2022-04-06 00:19:25,022] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:19:25,570] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:19:25,581] {logging_mixin.py:109} INFO - [2022-04-06 00:19:25,580] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:19:25,586] {logging_mixin.py:109} INFO - [2022-04-06 00:19:25,586] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:18:00+00:00
+[2022-04-06 00:19:25,590] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.569 seconds
+[2022-04-06 00:20:01,210] {processor.py:163} INFO - Started process (PID=14840) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:01,211] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:20:01,212] {logging_mixin.py:109} INFO - [2022-04-06 00:20:01,212] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:01,566] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:01,575] {logging_mixin.py:109} INFO - [2022-04-06 00:20:01,575] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:20:01,580] {logging_mixin.py:109} INFO - [2022-04-06 00:20:01,580] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:19:00+00:00
+[2022-04-06 00:20:01,583] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.373 seconds
+[2022-04-06 00:20:35,671] {processor.py:163} INFO - Started process (PID=14871) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:35,671] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:20:35,671] {logging_mixin.py:109} INFO - [2022-04-06 00:20:35,671] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:36,030] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:20:36,039] {logging_mixin.py:109} INFO - [2022-04-06 00:20:36,039] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:20:36,044] {logging_mixin.py:109} INFO - [2022-04-06 00:20:36,044] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:19:00+00:00
+[2022-04-06 00:20:36,047] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.377 seconds
+[2022-04-06 00:21:10,484] {processor.py:163} INFO - Started process (PID=14904) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:10,485] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:21:10,485] {logging_mixin.py:109} INFO - [2022-04-06 00:21:10,485] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:10,851] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:10,860] {logging_mixin.py:109} INFO - [2022-04-06 00:21:10,860] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:21:10,865] {logging_mixin.py:109} INFO - [2022-04-06 00:21:10,865] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:20:00+00:00
+[2022-04-06 00:21:10,869] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.386 seconds
+[2022-04-06 00:21:45,589] {processor.py:163} INFO - Started process (PID=14945) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:45,590] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:21:45,590] {logging_mixin.py:109} INFO - [2022-04-06 00:21:45,590] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:45,944] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:21:45,954] {logging_mixin.py:109} INFO - [2022-04-06 00:21:45,954] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:21:45,959] {logging_mixin.py:109} INFO - [2022-04-06 00:21:45,959] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:20:00+00:00
+[2022-04-06 00:21:45,962] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.373 seconds
+[2022-04-06 00:22:20,456] {processor.py:163} INFO - Started process (PID=14974) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:20,457] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:22:20,457] {logging_mixin.py:109} INFO - [2022-04-06 00:22:20,457] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:20,831] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:20,840] {logging_mixin.py:109} INFO - [2022-04-06 00:22:20,840] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:22:20,845] {logging_mixin.py:109} INFO - [2022-04-06 00:22:20,845] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:21:00+00:00
+[2022-04-06 00:22:20,848] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.393 seconds
+[2022-04-06 00:22:56,666] {processor.py:163} INFO - Started process (PID=15007) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:56,667] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:22:56,667] {logging_mixin.py:109} INFO - [2022-04-06 00:22:56,667] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:57,025] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:22:57,034] {logging_mixin.py:109} INFO - [2022-04-06 00:22:57,034] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:22:57,039] {logging_mixin.py:109} INFO - [2022-04-06 00:22:57,038] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:21:00+00:00
+[2022-04-06 00:22:57,042] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:23:31,191] {processor.py:163} INFO - Started process (PID=15038) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:23:31,192] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:23:31,192] {logging_mixin.py:109} INFO - [2022-04-06 00:23:31,192] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:23:31,553] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:23:31,561] {logging_mixin.py:109} INFO - [2022-04-06 00:23:31,561] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:23:31,566] {logging_mixin.py:109} INFO - [2022-04-06 00:23:31,566] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:22:00+00:00
+[2022-04-06 00:23:31,570] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:24:04,471] {processor.py:163} INFO - Started process (PID=15067) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:04,471] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:24:04,471] {logging_mixin.py:109} INFO - [2022-04-06 00:24:04,471] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:04,844] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:04,852] {logging_mixin.py:109} INFO - [2022-04-06 00:24:04,852] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:24:04,857] {logging_mixin.py:109} INFO - [2022-04-06 00:24:04,857] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:23:00+00:00
+[2022-04-06 00:24:04,861] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.390 seconds
+[2022-04-06 00:24:40,618] {processor.py:163} INFO - Started process (PID=15097) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:40,619] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:24:40,619] {logging_mixin.py:109} INFO - [2022-04-06 00:24:40,619] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:40,986] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:24:40,995] {logging_mixin.py:109} INFO - [2022-04-06 00:24:40,995] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:24:41,000] {logging_mixin.py:109} INFO - [2022-04-06 00:24:41,000] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:23:00+00:00
+[2022-04-06 00:24:41,003] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.385 seconds
+[2022-04-06 00:25:15,353] {processor.py:163} INFO - Started process (PID=15126) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:25:15,353] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:25:15,353] {logging_mixin.py:109} INFO - [2022-04-06 00:25:15,353] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:25:15,714] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:25:15,723] {logging_mixin.py:109} INFO - [2022-04-06 00:25:15,723] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:25:15,728] {logging_mixin.py:109} INFO - [2022-04-06 00:25:15,728] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:24:00+00:00
+[2022-04-06 00:25:15,732] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:27:02,343] {processor.py:163} INFO - Started process (PID=15175) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:02,345] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:27:02,345] {logging_mixin.py:109} INFO - [2022-04-06 00:27:02,345] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:02,793] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:02,802] {logging_mixin.py:109} INFO - [2022-04-06 00:27:02,802] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:27:02,807] {logging_mixin.py:109} INFO - [2022-04-06 00:27:02,807] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:26:00+00:00
+[2022-04-06 00:27:02,811] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.468 seconds
+[2022-04-06 00:27:38,009] {processor.py:163} INFO - Started process (PID=15216) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:38,011] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:27:38,011] {logging_mixin.py:109} INFO - [2022-04-06 00:27:38,011] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:38,448] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:27:38,457] {logging_mixin.py:109} INFO - [2022-04-06 00:27:38,457] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:27:38,462] {logging_mixin.py:109} INFO - [2022-04-06 00:27:38,462] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:26:00+00:00
+[2022-04-06 00:27:38,466] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.457 seconds
+[2022-04-06 00:28:12,836] {processor.py:163} INFO - Started process (PID=15247) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:12,837] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:28:12,837] {logging_mixin.py:109} INFO - [2022-04-06 00:28:12,837] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:13,205] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:13,214] {logging_mixin.py:109} INFO - [2022-04-06 00:28:13,214] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:28:13,219] {logging_mixin.py:109} INFO - [2022-04-06 00:28:13,219] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:27:00+00:00
+[2022-04-06 00:28:13,222] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.386 seconds
+[2022-04-06 00:28:47,149] {processor.py:163} INFO - Started process (PID=15279) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:47,149] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:28:47,149] {logging_mixin.py:109} INFO - [2022-04-06 00:28:47,149] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:47,511] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:28:47,520] {logging_mixin.py:109} INFO - [2022-04-06 00:28:47,520] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:28:47,525] {logging_mixin.py:109} INFO - [2022-04-06 00:28:47,525] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:27:00+00:00
+[2022-04-06 00:28:47,528] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.380 seconds
+[2022-04-06 00:29:22,446] {processor.py:163} INFO - Started process (PID=15359) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:22,447] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:29:22,448] {logging_mixin.py:109} INFO - [2022-04-06 00:29:22,448] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:22,808] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:22,817] {logging_mixin.py:109} INFO - [2022-04-06 00:29:22,817] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:29:22,822] {logging_mixin.py:109} INFO - [2022-04-06 00:29:22,822] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:28:00+00:00
+[2022-04-06 00:29:22,825] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:29:57,431] {processor.py:163} INFO - Started process (PID=15431) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:57,432] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:29:57,432] {logging_mixin.py:109} INFO - [2022-04-06 00:29:57,432] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:57,793] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:29:57,802] {logging_mixin.py:109} INFO - [2022-04-06 00:29:57,802] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:29:57,807] {logging_mixin.py:109} INFO - [2022-04-06 00:29:57,807] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:28:00+00:00
+[2022-04-06 00:29:57,810] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:30:33,959] {processor.py:163} INFO - Started process (PID=15506) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:30:33,959] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:30:33,960] {logging_mixin.py:109} INFO - [2022-04-06 00:30:33,960] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:30:34,330] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:30:34,340] {logging_mixin.py:109} INFO - [2022-04-06 00:30:34,340] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:30:34,345] {logging_mixin.py:109} INFO - [2022-04-06 00:30:34,345] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:29:00+00:00
+[2022-04-06 00:30:34,348] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.390 seconds
+[2022-04-06 00:31:08,312] {processor.py:163} INFO - Started process (PID=15577) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:08,313] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:31:08,314] {logging_mixin.py:109} INFO - [2022-04-06 00:31:08,314] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:08,675] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:08,685] {logging_mixin.py:109} INFO - [2022-04-06 00:31:08,685] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:31:08,690] {logging_mixin.py:109} INFO - [2022-04-06 00:31:08,690] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:30:00+00:00
+[2022-04-06 00:31:08,693] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.381 seconds
+[2022-04-06 00:31:42,817] {processor.py:163} INFO - Started process (PID=15628) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:42,817] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:31:42,817] {logging_mixin.py:109} INFO - [2022-04-06 00:31:42,817] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:43,169] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:31:43,178] {logging_mixin.py:109} INFO - [2022-04-06 00:31:43,178] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:31:43,183] {logging_mixin.py:109} INFO - [2022-04-06 00:31:43,182] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:30:00+00:00
+[2022-04-06 00:31:43,186] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.370 seconds
+[2022-04-06 00:32:18,514] {processor.py:163} INFO - Started process (PID=15696) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:18,514] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:32:18,514] {logging_mixin.py:109} INFO - [2022-04-06 00:32:18,514] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:18,875] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:18,884] {logging_mixin.py:109} INFO - [2022-04-06 00:32:18,884] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:32:18,889] {logging_mixin.py:109} INFO - [2022-04-06 00:32:18,889] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:31:00+00:00
+[2022-04-06 00:32:18,892] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.378 seconds
+[2022-04-06 00:32:53,363] {processor.py:163} INFO - Started process (PID=15745) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:53,364] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:32:53,364] {logging_mixin.py:109} INFO - [2022-04-06 00:32:53,364] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:53,867] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:32:53,885] {logging_mixin.py:109} INFO - [2022-04-06 00:32:53,885] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:32:53,890] {logging_mixin.py:109} INFO - [2022-04-06 00:32:53,890] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:31:00+00:00
+[2022-04-06 00:32:53,897] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.534 seconds
+[2022-04-06 00:33:28,305] {processor.py:163} INFO - Started process (PID=15801) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:33:28,305] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:33:28,306] {logging_mixin.py:109} INFO - [2022-04-06 00:33:28,306] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:33:28,743] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:33:28,752] {logging_mixin.py:109} INFO - [2022-04-06 00:33:28,752] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:33:28,757] {logging_mixin.py:109} INFO - [2022-04-06 00:33:28,757] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:32:00+00:00
+[2022-04-06 00:33:28,761] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.456 seconds
+[2022-04-06 00:34:04,428] {processor.py:163} INFO - Started process (PID=15861) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:04,428] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:34:04,428] {logging_mixin.py:109} INFO - [2022-04-06 00:34:04,428] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:04,800] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:04,810] {logging_mixin.py:109} INFO - [2022-04-06 00:34:04,810] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:34:04,815] {logging_mixin.py:109} INFO - [2022-04-06 00:34:04,815] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:33:00+00:00
+[2022-04-06 00:34:04,819] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.391 seconds
+[2022-04-06 00:34:38,498] {processor.py:163} INFO - Started process (PID=15896) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:38,498] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:34:38,499] {logging_mixin.py:109} INFO - [2022-04-06 00:34:38,499] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:38,859] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:34:38,869] {logging_mixin.py:109} INFO - [2022-04-06 00:34:38,868] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:34:38,873] {logging_mixin.py:109} INFO - [2022-04-06 00:34:38,873] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:33:00+00:00
+[2022-04-06 00:34:38,877] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:35:13,386] {processor.py:163} INFO - Started process (PID=15927) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:13,386] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:35:13,386] {logging_mixin.py:109} INFO - [2022-04-06 00:35:13,386] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:13,749] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:13,759] {logging_mixin.py:109} INFO - [2022-04-06 00:35:13,759] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:35:13,764] {logging_mixin.py:109} INFO - [2022-04-06 00:35:13,764] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:34:00+00:00
+[2022-04-06 00:35:13,767] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.381 seconds
+[2022-04-06 00:35:48,024] {processor.py:163} INFO - Started process (PID=15982) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:48,024] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:35:48,024] {logging_mixin.py:109} INFO - [2022-04-06 00:35:48,024] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:48,391] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:35:48,400] {logging_mixin.py:109} INFO - [2022-04-06 00:35:48,400] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:35:48,405] {logging_mixin.py:109} INFO - [2022-04-06 00:35:48,405] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:34:00+00:00
+[2022-04-06 00:35:48,408] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.385 seconds
+[2022-04-06 00:36:24,228] {processor.py:163} INFO - Started process (PID=16012) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:24,228] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:36:24,228] {logging_mixin.py:109} INFO - [2022-04-06 00:36:24,228] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:24,600] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:24,609] {logging_mixin.py:109} INFO - [2022-04-06 00:36:24,609] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:36:24,614] {logging_mixin.py:109} INFO - [2022-04-06 00:36:24,614] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:35:00+00:00
+[2022-04-06 00:36:24,617] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.390 seconds
+[2022-04-06 00:36:59,552] {processor.py:163} INFO - Started process (PID=16045) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:59,553] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:36:59,553] {logging_mixin.py:109} INFO - [2022-04-06 00:36:59,553] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:59,923] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:36:59,933] {logging_mixin.py:109} INFO - [2022-04-06 00:36:59,933] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:36:59,938] {logging_mixin.py:109} INFO - [2022-04-06 00:36:59,937] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:35:00+00:00
+[2022-04-06 00:36:59,941] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.389 seconds
+[2022-04-06 00:37:35,744] {processor.py:163} INFO - Started process (PID=16080) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:37:35,744] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:37:35,744] {logging_mixin.py:109} INFO - [2022-04-06 00:37:35,744] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:37:36,101] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:37:36,110] {logging_mixin.py:109} INFO - [2022-04-06 00:37:36,110] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:37:36,115] {logging_mixin.py:109} INFO - [2022-04-06 00:37:36,115] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:36:00+00:00
+[2022-04-06 00:37:36,119] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:38:10,100] {processor.py:163} INFO - Started process (PID=16109) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:10,100] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:38:10,100] {logging_mixin.py:109} INFO - [2022-04-06 00:38:10,100] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:10,464] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:10,473] {logging_mixin.py:109} INFO - [2022-04-06 00:38:10,473] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:38:10,478] {logging_mixin.py:109} INFO - [2022-04-06 00:38:10,478] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:37:00+00:00
+[2022-04-06 00:38:10,482] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 00:38:45,524] {processor.py:163} INFO - Started process (PID=16140) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:45,525] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:38:45,525] {logging_mixin.py:109} INFO - [2022-04-06 00:38:45,525] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:45,891] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:38:45,901] {logging_mixin.py:109} INFO - [2022-04-06 00:38:45,901] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:38:45,905] {logging_mixin.py:109} INFO - [2022-04-06 00:38:45,905] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:37:00+00:00
+[2022-04-06 00:38:45,909] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.385 seconds
+[2022-04-06 00:39:20,804] {processor.py:163} INFO - Started process (PID=16171) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:20,804] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:39:20,804] {logging_mixin.py:109} INFO - [2022-04-06 00:39:20,804] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:21,181] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:21,190] {logging_mixin.py:109} INFO - [2022-04-06 00:39:21,190] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:39:21,195] {logging_mixin.py:109} INFO - [2022-04-06 00:39:21,195] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:38:00+00:00
+[2022-04-06 00:39:21,198] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.395 seconds
+[2022-04-06 00:39:56,593] {processor.py:163} INFO - Started process (PID=16202) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:56,593] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:39:56,594] {logging_mixin.py:109} INFO - [2022-04-06 00:39:56,594] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:56,966] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:39:56,976] {logging_mixin.py:109} INFO - [2022-04-06 00:39:56,976] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:39:56,981] {logging_mixin.py:109} INFO - [2022-04-06 00:39:56,981] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:38:00+00:00
+[2022-04-06 00:39:56,984] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.391 seconds
+[2022-04-06 00:40:31,564] {processor.py:163} INFO - Started process (PID=16246) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:40:31,565] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:40:31,565] {logging_mixin.py:109} INFO - [2022-04-06 00:40:31,565] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:40:31,956] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:40:31,965] {logging_mixin.py:109} INFO - [2022-04-06 00:40:31,965] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:40:31,970] {logging_mixin.py:109} INFO - [2022-04-06 00:40:31,970] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:39:00+00:00
+[2022-04-06 00:40:31,974] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.410 seconds
+[2022-04-06 00:41:07,154] {processor.py:163} INFO - Started process (PID=16280) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:07,154] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:41:07,154] {logging_mixin.py:109} INFO - [2022-04-06 00:41:07,154] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:07,513] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:07,522] {logging_mixin.py:109} INFO - [2022-04-06 00:41:07,522] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:41:07,527] {logging_mixin.py:109} INFO - [2022-04-06 00:41:07,527] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:40:00+00:00
+[2022-04-06 00:41:07,530] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:41:41,923] {processor.py:163} INFO - Started process (PID=16316) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:41,924] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:41:41,925] {logging_mixin.py:109} INFO - [2022-04-06 00:41:41,925] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:42,295] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:41:42,304] {logging_mixin.py:109} INFO - [2022-04-06 00:41:42,304] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:41:42,309] {logging_mixin.py:109} INFO - [2022-04-06 00:41:42,309] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:40:00+00:00
+[2022-04-06 00:41:42,313] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.389 seconds
+[2022-04-06 00:42:17,632] {processor.py:163} INFO - Started process (PID=16350) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:17,633] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:42:17,633] {logging_mixin.py:109} INFO - [2022-04-06 00:42:17,633] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:17,983] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:17,992] {logging_mixin.py:109} INFO - [2022-04-06 00:42:17,992] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:42:17,997] {logging_mixin.py:109} INFO - [2022-04-06 00:42:17,997] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:41:00+00:00
+[2022-04-06 00:42:18,000] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.368 seconds
+[2022-04-06 00:42:52,326] {processor.py:163} INFO - Started process (PID=16384) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:52,326] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:42:52,326] {logging_mixin.py:109} INFO - [2022-04-06 00:42:52,326] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:52,694] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:42:52,704] {logging_mixin.py:109} INFO - [2022-04-06 00:42:52,704] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:42:52,708] {logging_mixin.py:109} INFO - [2022-04-06 00:42:52,708] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:41:00+00:00
+[2022-04-06 00:42:52,712] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.386 seconds
+[2022-04-06 00:43:26,706] {processor.py:163} INFO - Started process (PID=16414) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:43:26,706] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:43:26,706] {logging_mixin.py:109} INFO - [2022-04-06 00:43:26,706] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:43:27,068] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:43:27,079] {logging_mixin.py:109} INFO - [2022-04-06 00:43:27,079] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:43:27,084] {logging_mixin.py:109} INFO - [2022-04-06 00:43:27,084] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:42:00+00:00
+[2022-04-06 00:43:27,087] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 00:44:01,528] {processor.py:163} INFO - Started process (PID=16444) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:01,529] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:44:01,529] {logging_mixin.py:109} INFO - [2022-04-06 00:44:01,529] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:01,886] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:01,896] {logging_mixin.py:109} INFO - [2022-04-06 00:44:01,896] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:44:01,901] {logging_mixin.py:109} INFO - [2022-04-06 00:44:01,901] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:43:00+00:00
+[2022-04-06 00:44:01,904] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:44:36,188] {processor.py:163} INFO - Started process (PID=16475) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:36,188] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:44:36,189] {logging_mixin.py:109} INFO - [2022-04-06 00:44:36,188] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:36,566] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:44:36,576] {logging_mixin.py:109} INFO - [2022-04-06 00:44:36,576] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:44:36,581] {logging_mixin.py:109} INFO - [2022-04-06 00:44:36,581] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:43:00+00:00
+[2022-04-06 00:44:36,584] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.396 seconds
+[2022-04-06 00:45:11,029] {processor.py:163} INFO - Started process (PID=16510) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:11,031] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:45:11,031] {logging_mixin.py:109} INFO - [2022-04-06 00:45:11,031] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:11,489] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:11,499] {logging_mixin.py:109} INFO - [2022-04-06 00:45:11,499] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:45:11,504] {logging_mixin.py:109} INFO - [2022-04-06 00:45:11,504] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:44:00+00:00
+[2022-04-06 00:45:11,508] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.479 seconds
+[2022-04-06 00:45:46,686] {processor.py:163} INFO - Started process (PID=16581) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:46,686] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:45:46,687] {logging_mixin.py:109} INFO - [2022-04-06 00:45:46,687] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:47,048] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:45:47,057] {logging_mixin.py:109} INFO - [2022-04-06 00:45:47,057] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:45:47,062] {logging_mixin.py:109} INFO - [2022-04-06 00:45:47,062] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:44:00+00:00
+[2022-04-06 00:45:47,065] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.379 seconds
+[2022-04-06 00:46:21,614] {processor.py:163} INFO - Started process (PID=16642) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:21,614] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:46:21,614] {logging_mixin.py:109} INFO - [2022-04-06 00:46:21,614] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:21,999] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:22,008] {logging_mixin.py:109} INFO - [2022-04-06 00:46:22,008] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:46:22,013] {logging_mixin.py:109} INFO - [2022-04-06 00:46:22,013] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:45:00+00:00
+[2022-04-06 00:46:22,017] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.403 seconds
+[2022-04-06 00:46:57,644] {processor.py:163} INFO - Started process (PID=16704) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:57,644] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:46:57,645] {logging_mixin.py:109} INFO - [2022-04-06 00:46:57,644] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:58,102] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:46:58,112] {logging_mixin.py:109} INFO - [2022-04-06 00:46:58,112] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:46:58,117] {logging_mixin.py:109} INFO - [2022-04-06 00:46:58,117] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:45:00+00:00
+[2022-04-06 00:46:58,120] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.476 seconds
+[2022-04-06 00:47:33,838] {processor.py:163} INFO - Started process (PID=16777) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:47:33,841] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:47:33,841] {logging_mixin.py:109} INFO - [2022-04-06 00:47:33,841] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:47:34,215] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:47:34,225] {logging_mixin.py:109} INFO - [2022-04-06 00:47:34,225] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:47:34,231] {logging_mixin.py:109} INFO - [2022-04-06 00:47:34,231] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:46:00+00:00
+[2022-04-06 00:47:34,235] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.397 seconds
+[2022-04-06 00:48:10,078] {processor.py:163} INFO - Started process (PID=16848) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:10,079] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:48:10,079] {logging_mixin.py:109} INFO - [2022-04-06 00:48:10,079] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:10,540] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:10,551] {logging_mixin.py:109} INFO - [2022-04-06 00:48:10,551] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:48:10,556] {logging_mixin.py:109} INFO - [2022-04-06 00:48:10,556] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:47:00+00:00
+[2022-04-06 00:48:10,560] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.482 seconds
+[2022-04-06 00:48:45,641] {processor.py:163} INFO - Started process (PID=16916) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:45,641] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:48:45,641] {logging_mixin.py:109} INFO - [2022-04-06 00:48:45,641] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:45,992] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:48:46,002] {logging_mixin.py:109} INFO - [2022-04-06 00:48:46,002] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:48:46,006] {logging_mixin.py:109} INFO - [2022-04-06 00:48:46,006] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:47:00+00:00
+[2022-04-06 00:48:46,010] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.369 seconds
+[2022-04-06 00:49:21,623] {processor.py:163} INFO - Started process (PID=16988) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:21,623] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:49:21,623] {logging_mixin.py:109} INFO - [2022-04-06 00:49:21,623] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:21,976] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:21,984] {logging_mixin.py:109} INFO - [2022-04-06 00:49:21,984] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:49:21,989] {logging_mixin.py:109} INFO - [2022-04-06 00:49:21,989] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:48:00+00:00
+[2022-04-06 00:49:21,993] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.370 seconds
+[2022-04-06 00:49:57,006] {processor.py:163} INFO - Started process (PID=17049) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:57,006] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:49:57,006] {logging_mixin.py:109} INFO - [2022-04-06 00:49:57,006] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:57,359] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:49:57,367] {logging_mixin.py:109} INFO - [2022-04-06 00:49:57,367] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:49:57,372] {logging_mixin.py:109} INFO - [2022-04-06 00:49:57,372] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:48:00+00:00
+[2022-04-06 00:49:57,375] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.370 seconds
+[2022-04-06 00:50:31,652] {processor.py:163} INFO - Started process (PID=17119) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:50:31,652] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:50:31,652] {logging_mixin.py:109} INFO - [2022-04-06 00:50:31,652] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:50:31,999] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:50:32,007] {logging_mixin.py:109} INFO - [2022-04-06 00:50:32,007] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:50:32,012] {logging_mixin.py:109} INFO - [2022-04-06 00:50:32,012] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:49:00+00:00
+[2022-04-06 00:50:32,015] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.364 seconds
+[2022-04-06 00:51:07,010] {processor.py:163} INFO - Started process (PID=17192) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:07,011] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:51:07,011] {logging_mixin.py:109} INFO - [2022-04-06 00:51:07,011] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:07,373] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:07,381] {logging_mixin.py:109} INFO - [2022-04-06 00:51:07,381] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:51:07,386] {logging_mixin.py:109} INFO - [2022-04-06 00:51:07,386] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:50:00+00:00
+[2022-04-06 00:51:07,390] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.380 seconds
+[2022-04-06 00:51:42,038] {processor.py:163} INFO - Started process (PID=17232) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:42,038] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:51:42,038] {logging_mixin.py:109} INFO - [2022-04-06 00:51:42,038] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:42,383] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:51:42,392] {logging_mixin.py:109} INFO - [2022-04-06 00:51:42,392] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:51:42,397] {logging_mixin.py:109} INFO - [2022-04-06 00:51:42,397] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:50:00+00:00
+[2022-04-06 00:51:42,400] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.363 seconds
+[2022-04-06 00:52:15,674] {processor.py:163} INFO - Started process (PID=17279) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:15,675] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:52:15,676] {logging_mixin.py:109} INFO - [2022-04-06 00:52:15,675] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:16,032] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:16,042] {logging_mixin.py:109} INFO - [2022-04-06 00:52:16,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:52:16,047] {logging_mixin.py:109} INFO - [2022-04-06 00:52:16,047] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:51:00+00:00
+[2022-04-06 00:52:16,050] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.376 seconds
+[2022-04-06 00:52:50,255] {processor.py:163} INFO - Started process (PID=17352) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:50,256] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:52:50,257] {logging_mixin.py:109} INFO - [2022-04-06 00:52:50,257] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:50,618] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:52:50,627] {logging_mixin.py:109} INFO - [2022-04-06 00:52:50,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:52:50,632] {logging_mixin.py:109} INFO - [2022-04-06 00:52:50,632] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:51:00+00:00
+[2022-04-06 00:52:50,635] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.380 seconds
+[2022-04-06 00:53:24,669] {processor.py:163} INFO - Started process (PID=17423) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:53:24,669] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:53:24,670] {logging_mixin.py:109} INFO - [2022-04-06 00:53:24,670] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:53:25,032] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:53:25,042] {logging_mixin.py:109} INFO - [2022-04-06 00:53:25,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:53:25,047] {logging_mixin.py:109} INFO - [2022-04-06 00:53:25,047] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:52:00+00:00
+[2022-04-06 00:53:25,050] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.381 seconds
+[2022-04-06 00:53:59,853] {processor.py:163} INFO - Started process (PID=17498) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:53:59,856] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:53:59,857] {logging_mixin.py:109} INFO - [2022-04-06 00:53:59,857] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:54:00,222] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:54:00,232] {logging_mixin.py:109} INFO - [2022-04-06 00:54:00,232] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:54:00,237] {logging_mixin.py:109} INFO - [2022-04-06 00:54:00,237] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:53:00+00:00
+[2022-04-06 00:54:00,241] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.387 seconds
+[2022-04-06 00:54:34,744] {processor.py:163} INFO - Started process (PID=17558) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:54:34,744] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:54:34,745] {logging_mixin.py:109} INFO - [2022-04-06 00:54:34,745] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:54:35,117] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:54:35,127] {logging_mixin.py:109} INFO - [2022-04-06 00:54:35,126] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:54:35,133] {logging_mixin.py:109} INFO - [2022-04-06 00:54:35,133] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:53:00+00:00
+[2022-04-06 00:54:35,136] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.392 seconds
+[2022-04-06 00:55:09,042] {processor.py:163} INFO - Started process (PID=17610) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:09,043] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:55:09,043] {logging_mixin.py:109} INFO - [2022-04-06 00:55:09,043] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:09,401] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:09,411] {logging_mixin.py:109} INFO - [2022-04-06 00:55:09,411] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:55:09,416] {logging_mixin.py:109} INFO - [2022-04-06 00:55:09,416] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:54:00+00:00
+[2022-04-06 00:55:09,419] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.378 seconds
+[2022-04-06 00:55:43,437] {processor.py:163} INFO - Started process (PID=17678) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:43,438] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:55:43,438] {logging_mixin.py:109} INFO - [2022-04-06 00:55:43,438] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:43,802] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:55:43,811] {logging_mixin.py:109} INFO - [2022-04-06 00:55:43,811] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:55:43,816] {logging_mixin.py:109} INFO - [2022-04-06 00:55:43,815] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:54:00+00:00
+[2022-04-06 00:55:43,819] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 00:56:18,218] {processor.py:163} INFO - Started process (PID=17718) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:18,218] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:56:18,218] {logging_mixin.py:109} INFO - [2022-04-06 00:56:18,218] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:18,568] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:18,578] {logging_mixin.py:109} INFO - [2022-04-06 00:56:18,577] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:56:18,582] {logging_mixin.py:109} INFO - [2022-04-06 00:56:18,582] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:55:00+00:00
+[2022-04-06 00:56:18,586] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.368 seconds
+[2022-04-06 00:56:52,957] {processor.py:163} INFO - Started process (PID=17785) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:52,957] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:56:52,957] {logging_mixin.py:109} INFO - [2022-04-06 00:56:52,957] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:53,312] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:56:53,321] {logging_mixin.py:109} INFO - [2022-04-06 00:56:53,321] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:56:53,326] {logging_mixin.py:109} INFO - [2022-04-06 00:56:53,326] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:55:00+00:00
+[2022-04-06 00:56:53,329] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.373 seconds
+[2022-04-06 00:57:28,607] {processor.py:163} INFO - Started process (PID=17860) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:57:28,609] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:57:28,609] {logging_mixin.py:109} INFO - [2022-04-06 00:57:28,609] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:57:28,980] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:57:28,989] {logging_mixin.py:109} INFO - [2022-04-06 00:57:28,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:57:28,994] {logging_mixin.py:109} INFO - [2022-04-06 00:57:28,994] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:56:00+00:00
+[2022-04-06 00:57:28,998] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.391 seconds
+[2022-04-06 00:58:04,525] {processor.py:163} INFO - Started process (PID=17923) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:04,526] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:58:04,526] {logging_mixin.py:109} INFO - [2022-04-06 00:58:04,526] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:04,904] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:04,913] {logging_mixin.py:109} INFO - [2022-04-06 00:58:04,913] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:58:04,918] {logging_mixin.py:109} INFO - [2022-04-06 00:58:04,918] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:57:00+00:00
+[2022-04-06 00:58:04,921] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.396 seconds
+[2022-04-06 00:58:39,202] {processor.py:163} INFO - Started process (PID=17987) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:39,203] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:58:39,203] {logging_mixin.py:109} INFO - [2022-04-06 00:58:39,203] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:39,562] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:58:39,572] {logging_mixin.py:109} INFO - [2022-04-06 00:58:39,572] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:58:39,576] {logging_mixin.py:109} INFO - [2022-04-06 00:58:39,576] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:57:00+00:00
+[2022-04-06 00:58:39,580] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.378 seconds
+[2022-04-06 00:59:14,716] {processor.py:163} INFO - Started process (PID=18031) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:14,717] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:59:14,717] {logging_mixin.py:109} INFO - [2022-04-06 00:59:14,717] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:15,080] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:15,090] {logging_mixin.py:109} INFO - [2022-04-06 00:59:15,090] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:59:15,095] {logging_mixin.py:109} INFO - [2022-04-06 00:59:15,095] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:58:00+00:00
+[2022-04-06 00:59:15,098] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.383 seconds
+[2022-04-06 00:59:50,851] {processor.py:163} INFO - Started process (PID=18082) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:50,852] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 00:59:50,853] {logging_mixin.py:109} INFO - [2022-04-06 00:59:50,852] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:51,215] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 00:59:51,224] {logging_mixin.py:109} INFO - [2022-04-06 00:59:51,224] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 00:59:51,229] {logging_mixin.py:109} INFO - [2022-04-06 00:59:51,229] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:58:00+00:00
+[2022-04-06 00:59:51,233] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.382 seconds
+[2022-04-06 01:00:26,305] {processor.py:163} INFO - Started process (PID=18117) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:00:26,305] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:00:26,305] {logging_mixin.py:109} INFO - [2022-04-06 01:00:26,305] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:00:26,680] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:00:26,690] {logging_mixin.py:109} INFO - [2022-04-06 01:00:26,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:00:26,695] {logging_mixin.py:109} INFO - [2022-04-06 01:00:26,695] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T22:59:00+00:00
+[2022-04-06 01:00:26,699] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.395 seconds
+[2022-04-06 01:01:00,359] {processor.py:163} INFO - Started process (PID=18176) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:00,359] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:01:00,359] {logging_mixin.py:109} INFO - [2022-04-06 01:01:00,359] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:00,732] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:00,742] {logging_mixin.py:109} INFO - [2022-04-06 01:01:00,741] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:01:00,746] {logging_mixin.py:109} INFO - [2022-04-06 01:01:00,746] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:00:00+00:00
+[2022-04-06 01:01:00,750] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.391 seconds
+[2022-04-06 01:01:35,573] {processor.py:163} INFO - Started process (PID=18213) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:35,574] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:01:35,574] {logging_mixin.py:109} INFO - [2022-04-06 01:01:35,574] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:35,974] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:01:36,000] {logging_mixin.py:109} INFO - [2022-04-06 01:01:36,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:01:36,005] {logging_mixin.py:109} INFO - [2022-04-06 01:01:36,005] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:00:00+00:00
+[2022-04-06 01:01:36,008] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.435 seconds
+[2022-04-06 01:02:09,530] {processor.py:163} INFO - Started process (PID=18250) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:09,531] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:02:09,531] {logging_mixin.py:109} INFO - [2022-04-06 01:02:09,531] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:09,890] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:09,901] {logging_mixin.py:109} INFO - [2022-04-06 01:02:09,901] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:02:09,906] {logging_mixin.py:109} INFO - [2022-04-06 01:02:09,906] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:01:00+00:00
+[2022-04-06 01:02:09,910] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.380 seconds
+[2022-04-06 01:02:44,506] {processor.py:163} INFO - Started process (PID=18284) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:44,507] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:02:44,507] {logging_mixin.py:109} INFO - [2022-04-06 01:02:44,507] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:44,868] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:02:44,878] {logging_mixin.py:109} INFO - [2022-04-06 01:02:44,878] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:02:44,883] {logging_mixin.py:109} INFO - [2022-04-06 01:02:44,883] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:01:00+00:00
+[2022-04-06 01:02:44,886] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.380 seconds
+[2022-04-06 01:03:20,393] {processor.py:163} INFO - Started process (PID=18316) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:03:20,394] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:03:20,394] {logging_mixin.py:109} INFO - [2022-04-06 01:03:20,394] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:03:20,825] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:03:20,834] {logging_mixin.py:109} INFO - [2022-04-06 01:03:20,834] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:03:20,839] {logging_mixin.py:109} INFO - [2022-04-06 01:03:20,839] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:02:00+00:00
+[2022-04-06 01:03:20,843] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.450 seconds
+[2022-04-06 01:51:01,063] {processor.py:163} INFO - Started process (PID=18371) to work on /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:51:01,064] {processor.py:642} INFO - Processing file /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py for tasks to queue
+[2022-04-06 01:51:01,064] {logging_mixin.py:109} INFO - [2022-04-06 01:51:01,064] {dagbag.py:500} INFO - Filling up the DagBag from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:51:01,615] {processor.py:654} INFO - DAG(s) dict_keys(['first_airflow_dag']) retrieved from /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py
+[2022-04-06 01:51:01,624] {logging_mixin.py:109} INFO - [2022-04-06 01:51:01,624] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-06 01:51:01,629] {logging_mixin.py:109} INFO - [2022-04-06 01:51:01,629] {dag.py:2937} INFO - Setting next_dagrun for first_airflow_dag to 2022-04-05T23:50:00+00:00
+[2022-04-06 01:51:01,633] {processor.py:171} INFO - Processing /Users/manvijha/Documents/MyProjects/CaseStudy_DE/dags/firstdag.py took 0.572 seconds

@@ -110,10 +110,34 @@ with DAG(dag_id="workflow1",schedule_interval='00 22 1 * *', start_date=datetime
         sql='insert into contracts_post ( select distinct a.* from (select id ,type ,energy ,usage ,usagenet ,createdat ,startdate ,enddate ,fillingdatecancellation ,cancellationreason ,city ,status,productid , modificationdate from contracts ) a inner join (select id , max(modificationdate) as maxd from contracts group by 1)b on a.id=b.id and a.modificationdate=b.maxd order by 1 )'
     )
 
-    op1=PostgresOperator(
+    mid_result_op=PostgresOperator(
         task_id="op1",
         postgres_conn_id='postgres_db',
-        sql = 'insert into output_to_analyst_mid ( select distinct createdat,usage,productcode,productname,pricecomponentid,productcomponent,price from (select a.createdat,a.usage,b.id,b.productcode,b.productname from (select * from contracts_post ) a left outer join (select * from products_post) b  on a.productid=b.id and a.energy=b.energy ) a1 left outer join (select * from prices_post) c on a1.id=c.productid);'
+        sql = "insert into output_to_analyst_mid ( select distinct createdat,usage,productcode,productname,pricecomponentid,productcomponent,price from (select a.createdat,a.usage,b.id,b.productcode,b.productname from (select * from contracts_post ) a left outer join (select * from products_post) b  on a.productid=b.id and a.energy=b.energy ) a1 left outer join (select * from prices_post where valid_until='9999-12-31') c on a1.id=c.productid);"
+    )
+
+    final_result_op=PostgresOperator(
+        task_id="op_final",
+        postgres_conn_id='postgres_db',
+        sql = "insert into fin_out(select createdat,productname,sum(consumption) as consumption,sum(revenue) as revenue from ( select productname,createdat,usage as consumption, (baseprice+(usage*workingprice)) as revenue from ( select distinct a1.createdat,a1.usage,a1.productname,avg(workingprice) as workingprice, avg(baseprice) as baseprice from  (select createdat,usage,productname, price as workingprice from output_to_analyst_mid where productcomponent='workingprice') a1 inner join (select createdat,usage,productname, price as baseprice from output_to_analyst_mid where productcomponent='baseprice') b1 on a1.createdat=b1.createdat and a1.usage=b1.usage and a1.productname=b1.productname   group by 1,2,3) as e order by productname , createdat) f group by 1,2 order by 1,2)"
+    )
+
+    answer1_mid=PostgresOperator(
+        task_id="answer1_mid",
+        postgres_conn_id='postgres_db',
+        sql = "insert into answer1_mid (select distinct contractid,createdat,usage,productcode,productname,pricecomponentid,productcomponent,price from (select a.id as contractid,a.createdat,a.usage,b.id,b.productcode,b.productname from (select * from contracts_post ) a left outer join (select * from products_post) b  on a.productid=b.id and a.energy=b.energy ) a1 left outer join (select * from prices_post where valid_until='9999-12-31') c on a1.id=c.productid);"
+    )
+
+    answer1_final=PostgresOperator(
+        task_id="answer1_final",
+        postgres_conn_id='postgres_db',
+        sql="insert into answer1_fin (select contractid, createdat,avg(revenue) as revenue from ( select contractid,productname,createdat,usage as consumption, (baseprice+(usage*workingprice)) as revenue from ( select distinct a1.contractid,a1.createdat,a1.usage,a1.productname,avg(workingprice) as workingprice, avg(baseprice) as baseprice from  (select contractid,createdat,usage,productname, price as workingprice from answer1_mid where productcomponent='workingprice') a1 inner join (select contractid,createdat,usage,productname, price as baseprice from answer1_mid where productcomponent='baseprice') b1 on a1.createdat=b1.createdat and a1.usage=b1.usage and a1.productname=b1.productname   group by 1,2,3,4) as e order by contractid,productname , createdat) f where createdat>='2020-10-01' and createdat<='2021-01-01' group by 1,2 order by 1,2);"
+    )
+
+    answer2_final=PostgresOperator(
+        task_id="answer2_final",
+        postgres_conn_id='postgres_db',
+        sql="select count(*) from contracts_post where status='indelivery';"
     )
 
     
